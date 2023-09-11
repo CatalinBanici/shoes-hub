@@ -1,0 +1,28 @@
+ {
+    "key": __NUMBER__,
+    "name": "__STRING__",
+    "category": "__STRING__",
+    "description": "__STRING__",
+    "stock": __NUMBER__,
+    "sizes": [__NUMBER__],
+    "colors": [
+      {
+        "__COLORNAME__": "../assets/products-gallery/__PATH__/colors/__PATH__.jpg"
+      } 
+    ],
+    "price": {
+      "current": __NUMBER__,
+      "discount": __BOOLEAN__,
+      "old": __NUMBER__
+    },
+    "gender": "__STRING__",
+    "specs": {
+      "__SPEC__": "__STRING__"      
+    },
+    "gallery": {
+      "main": "../assets/products-gallery/__PATH__/__PATH__.jpg",
+      "images": [
+        "../assets/products-gallery/__PATH__/__PATH__.jpg"
+      ]
+    }
+}

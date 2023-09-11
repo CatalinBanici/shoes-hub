@@ -1,0 +1,582 @@
+{
+  "products": [
+    {
+      "key": 1,
+      "name": "New Fashion Men Sneakers",
+      "category": "sneakers",
+      "description": "2023 New Fashion Men Sneakers For Men Casual Shoes Breathable Lace Up Mens Casual Shoes Spring Shoes Men Chaussure Homme.",
+      "stock": 40,
+      "sizes": [37, 38, 39, 40, 41, 42, 43, 44],
+      "colors": [
+        {
+          "Blue": "../assets/products-gallery/sneakers-men-1/colors/blue.jpg"
+        },
+        {
+          "Black": "../assets/products-gallery/sneakers-men-1/colors/black.jpg"
+        },
+        {
+          "White": "../assets/products-gallery/sneakers-men-1/colors/white.jpg"
+        }
+      ],
+      "price": {
+        "current": 35,
+        "discount": true,
+        "old": 49
+      },
+      "gender": "male",
+      "specs": {
+        "Shoes Type": "Basic",
+        "Gender": "Male",
+        "Season": "Spring/Autumn",
+        "Line material": "Cotton fabric",
+        "Upper material": "Leatherette",
+        "Insole Material": "Latex",
+        "Outsole material": "Rubber"
+      },
+      "gallery": {
+        "main": "../assets/products-gallery/sneakers-men-1/main.jpg",
+        "images": [
+          "../assets/products-gallery/sneakers-men-1/main.jpg",
+          "../assets/products-gallery/sneakers-men-1/showcase1.jpg",
+          "../assets/products-gallery/sneakers-men-1/showcase2.jpg",
+          "../assets/products-gallery/sneakers-men-1/showcase3.jpg",
+          "../assets/products-gallery/sneakers-men-1/showcase4.jpg"
+        ]
+      }
+    },
+    {
+      "key": 2,
+      "name": "Running Shoes Lightweight",
+      "category": "sneakers",
+      "description": "Summer Autumn Running Shoes for Men Lightweight Design Quick-Dry Marathon Shock Absorption Support Male Sneakers.",
+      "stock": 40,
+      "sizes": [37, 38, 39, 40, 41, 42, 43, 44],
+      "colors": [
+        {
+          "Red": "../assets/products-gallery/sneakers-men-2/colors/red.jpg"
+        },
+        {
+          "White": "../assets/products-gallery/sneakers-men-2/colors/white.jpg"
+        }
+      ],
+      "price": {
+        "current": 41,
+        "discount": false,
+        "old": ""
+      },
+      "gender": "unisex",
+      "specs": {
+        "Shoes Type": "Runing Shoes",
+        "Gender": "Unisex",
+        "Material": "Polyester",
+        "Outsole material": "Rubber",
+        "Insole Material": "Rubber",
+        "Upper material": "Mesh (Airmesh)"
+      },
+      "gallery": {
+        "main": "../assets/products-gallery/sneakers-men-2/main.jpg",
+        "images": [
+          "../assets/products-gallery/sneakers-men-2/main.jpg",
+          "../assets/products-gallery/sneakers-men-2/showcase1.jpg",
+          "../assets/products-gallery/sneakers-men-2/showcase2.jpg"
+        ]
+      }
+    },
+    {
+      "key": 3,
+      "name": "Leather Loafers Casual Shoes For Men",
+      "category": "sneakers",
+      "description": "Genuine Suede Leather Men Loafers Casual Shoes Men Sneakers Laup Oxford Shoes Outdoor Jogging Shoes Board Shoes Safety Shoes",
+      "stock": 25,
+      "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
+      "colors": [
+        {
+          "Beige": "../assets/products-gallery/sneakers-men-3/colors/beige.jpg"
+        },
+        {
+          "Black": "../assets/products-gallery/sneakers-men-3/colors/black.jpg"
+        },
+        {
+          "Grey": "../assets/products-gallery/sneakers-men-3/colors/grey.jpg"
+        }
+      ],
+      "price": {
+        "current": 79,
+        "discount": true,
+        "old": 109
+      },
+      "gender": "male",
+      "specs": {
+        "Season": "Spring/Autumn",
+        "Upper material": "Leather",
+        "Outsole material": "Rubber",
+        "Line material": "Canvas",
+        "Functions": "Breathable",
+        "Gender": "Male"
+      },
+      "gallery": {
+        "main": "../assets/products-gallery/sneakers-men-3/main.jpg",
+        "images": [
+          "../assets/products-gallery/sneakers-men-3/main.jpg",
+          "../assets/products-gallery/sneakers-men-3/showcase1.jpg",
+          "../assets/products-gallery/sneakers-men-3/showcase2.jpg",
+          "../assets/products-gallery/sneakers-men-3/showcase3.jpg"
+        ]
+      }
+    },
+    {
+      "key": 4,
+      "name": "Women Sneakers Shoes Fashion",
+      "category": "sneakers",
+      "description": "Women Sneakers Shoes Fashion Women Vulcanized Shoes High Quality Flats Shoes Women Walking Platform Plus Size Zapatillas Mujer",
+      "stock": 30,
+      "sizes": [34, 35, 36, 37, 38, 39, 40, 41],
+      "colors": [
+        {
+          "Grey-1": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
+        },
+        {
+          "Grey-2": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
+        },
+        {
+          "Black": "../assets/products-gallery/sneakers-women-1/colors/black.jpg"
+        }
+      ],
+      "price": {
+        "current": 25,
+        "discount": true,
+        "old": 38
+      },
+      "gender": "female",
+      "specs": {
+        "Patterns": "Solid",
+        "Insole Material": "PU",
+        "Upper material": "Cotton fabric",
+        "Season": "Spring/Autumn",
+        "Seals": "Lace Up"
+      },
+      "gallery": {
+        "main": "../assets/products-gallery/sneakers-women-1/main.jpg",
+        "images": [
+          "../assets/products-gallery/sneakers-women-1/main.jpg",
+          "../assets/products-gallery/sneakers-women-1/showcase1.jpg",
+          "../assets/products-gallery/sneakers-women-1/showcase2.jpg",
+          "../assets/products-gallery/sneakers-women-1/showcase3.jpg",
+          "../assets/products-gallery/sneakers-women-1/showcase4.jpg"
+        ]
+      }
+    },
+    {
+      "key": 5,
+      "name": "Summer Women Fashion Vulcanized Sneakers",
+      "category": "sneakers",
+      "description": "Summer Women Fashion Vulcanized Sneakers Platform Solid Color Flat Ladies Shoes Casual Breathable Wedges Ladies Walking Sneakers",
+      "stock": 80,
+      "sizes": [33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "colors": [
+        {
+          "Beige": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg"
+        },
+        {
+          "Grey": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg"
+        },
+        {
+          "Black": "../assets/products-gallery/sneakers-women-2/colors/black.jpg"
+        },
+        {
+          "Pink": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg"
+        }
+      ],
+      "price": {
+        "current": 29,
+        "discount": true,
+        "old": 45
+      },
+      "gender": "female",
+      "specs": {
+        "Patterns": "Solid",
+        "Insole Material": "Rubber",
+        "Upper material": "Mesh (Airmesh)",
+        "Season": "Summer",
+        "Seals": "Loafers"
+      },
+      "gallery": {
+        "main": "../assets/products-gallery/sneakers-women-2/main.jpg",
+        "images": [
+          "../assets/products-gallery/sneakers-women-2/main.jpg",
+          "../assets/products-gallery/sneakers-women-2/showcase1.jpg",
+          "../assets/products-gallery/sneakers-women-2/showcase2.jpg",
+          "../assets/products-gallery/sneakers-women-2/showcase3.jpg",
+          "../assets/products-gallery/sneakers-women-2/showcase4.jpg",
+          "../assets/products-gallery/sneakers-women-2/showcase5.jpg",
+          "../assets/products-gallery/sneakers-women-2/showcase6.jpg"
+        ]
+      }
+    },
+    {
+      "key": 6,
+      "name": "Women's Casual Sneakers",
+      "category": "sneakers",
+      "description": "Women's Casual Sneakers White Metallic Detail Embroidered Floral Skate Shoes For Women Lightweight Walking Shoes",
+      "stock": 3,
+      "sizes": [34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "colors": [
+        {
+          "White-1": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
+        },
+        {
+          "White-2": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
+        }
+      ],
+      "price": {
+        "current": 39,
+        "discount": true,
+        "old": 69
+      },
+      "gender": "female",
+      "specs": {
+        "Shoes Type": "Sneakers",
+        "Upper material": "Microfiber",
+        "Season": "Spring/Summer/Autumn",
+        "Gender": "Female"
+      },
+      "gallery": {
+        "main": "../assets/products-gallery/sneakers-women-3/main.jpg",
+        "images": [
+          "../assets/products-gallery/sneakers-women-3/main.jpg",
+          "../assets/products-gallery/sneakers-women-3/showcase1.jpg",
+          "../assets/products-gallery/sneakers-women-3/showcase2.jpg",
+          "../assets/products-gallery/sneakers-women-3/showcase3.jpg",
+          "../assets/products-gallery/sneakers-women-3/showcase4.jpg",
+          "../assets/products-gallery/sneakers-women-3/showcase5.jpg"
+        ]
+      }
+    },
+    {
+      "key": 7,
+      "name": "Vulcanized Sneakers Platform",
+      "category": "sneakers",
+      "description": "Fashion Vulcanized Sneakers Platform Solid Color Flats Women Shoes Casual Breathable Wedges Ladies Walking Sneakers",
+      "stock": 50,
+      "sizes": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "colors": [
+        {
+          "Red": "../assets/products-gallery/sneakers-women-4/colors/red.jpg"
+        },
+        {
+          "Blue": "../assets/products-gallery/sneakers-women-4/colors/blue.jpg"
+        },
+        {
+          "White": "../assets/products-gallery/sneakers-women-4/colors/white.jpg"
+        },
+        {
+          "Black": "../assets/products-gallery/sneakers-women-4/colors/black.jpg"
+        }
+      ],
+      "price": {
+        "current": 35,
+        "discount": false,
+        "old": ""
+      },
+      "gender": "female",
+      "specs": {
+        "Shoes Type": "Sneakers",
+        "Line material": "Canvas",
+        "Upper material": "Canvas",
+        "Canvas": "Spring/Summer/Autumn",
+        "Patterns": "Bordered",
+        "Gender": "Female"
+      },
+      "gallery": {
+        "main": "../assets/products-gallery/sneakers-women-4/main.jpg",
+        "images": [
+          "../assets/products-gallery/sneakers-women-4/main.jpg",
+          "../assets/products-gallery/sneakers-women-4/showcase1.jpg",
+          "../assets/products-gallery/sneakers-women-4/showcase2.jpg",
+          "../assets/products-gallery/sneakers-women-4/showcase3.jpg",
+          "../assets/products-gallery/sneakers-women-4/showcase4.jpg"
+        ]
+      }
+    },
+    {
+      "key": 8,
+      "name": "New Style Casual Sports Shoes",
+      "category": "sneakers",
+      "description": "New Style Thick Sole Lift Casual Sports Shoes With Comfortable Bottom And White Color Suitable For Short Stature Women",
+      "stock": 20,
+      "sizes": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "colors": [
+        {
+          "White-1": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
+        },
+        {
+          "White-2": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
+        }
+      ],
+      "price": {
+        "current": 49,
+        "discount": false,
+        "old": ""
+      },
+      "gender": "female",
+      "specs": {
+        "Insole Material": "Eva",
+        "Upper material": "Microfiber",
+        "Shoes Type": "Sneakers",
+        "Gender": "Female",
+        "Season": "Spring/Summer/Autumn"
+      },
+      "gallery": {
+        "main": "../assets/products-gallery/sneakers-women-5/main.jpg",
+        "images": [
+          "../assets/products-gallery/sneakers-women-5/main.jpg",
+          "../assets/products-gallery/sneakers-women-5/showcase1.jpg",
+          "../assets/products-gallery/sneakers-women-5/showcase2.jpg",
+          "../assets/products-gallery/sneakers-women-5/showcase3.jpg",
+          "../assets/products-gallery/sneakers-women-5/showcase4.jpg",
+          "../assets/products-gallery/sneakers-women-5/showcase5.jpg"
+        ]
+      }
+    },
+    {
+      "key": 9,
+      "name": "Luxury Designer Vulcanized Shoes",
+      "category": "sneakers",
+      "description": "Valstone Luxury Designer Vulcanized Shoes For Men Casual Outdoor Quality Male Footwear Breathable Mens Fashion Sneakes",
+      "stock": 2,
+      "sizes": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
+      "colors": [
+        {
+          "Blue": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg"
+        },
+        {
+          "Green": "../assets/products-gallery/sneakers-men-4/colors/green.jpg"
+        }
+      ],
+      "price": {
+        "current": 69,
+        "discount": false,
+        "old": ""
+      },
+      "gender": "male",
+      "specs": {
+        "Shoes Type": "Basic",
+        "Patterns": "Graffiti",
+        "Season": "Summer",
+        "Line material": "None",
+        "Seals": "Lace Up",
+        "Upper material": "Canvas",
+        "Insole Material": "Latex",
+        "Outsole material": "Rubber"
+      },
+      "gallery": {
+        "main": "../assets/products-gallery/sneakers-men-4/main.jpg",
+        "images": [
+          "../assets/products-gallery/sneakers-men-4/main.jpg",
+          "../assets/products-gallery/sneakers-men-4/showcase1.jpg",
+          "../assets/products-gallery/sneakers-men-4/showcase2.jpg",
+          "../assets/products-gallery/sneakers-men-4/showcase3.jpg",
+          "../assets/products-gallery/sneakers-men-4/showcase4.jpg"
+        ]
+      }
+    },
+    {
+      "key": 10,
+      "name": "Men Sneakers Outdoor Stylish",
+      "category": "sneakers",
+      "description": "Autumn Men Sneakers Natural Pig Skin Material Male Trainers Outdoor Stylish Shoes Lace-up Flats Non-slip Rubber Sole Gray",
+      "stock": 40,
+      "sizes": [36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
+      "colors": [
+        {
+          "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+        },
+        {
+          "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+        },
+        {
+          "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+        }
+      ],
+      "price": {
+        "current": 45,
+        "discount": true,
+        "old": 69
+      },
+      "gender": "male",
+      "specs": {
+        "Shoes Type": "Basic",
+        "Season": "Spring/Autumn",
+        "Line material": "Nylon",
+        "Seals": "Lace Up",
+        "Upper material": "Faux Nubuck",
+        "Insole Material": "Eva",
+        "Outsole material": "Rubber"
+      },
+      "gallery": {
+        "main": "../assets/products-gallery/sneakers-men-5/main.jpg",
+        "images": [
+          "../assets/products-gallery/sneakers-men-5/main.jpg",
+          "../assets/products-gallery/sneakers-men-5/showcase1.jpg",
+          "../assets/products-gallery/sneakers-men-5/showcase2.jpg",
+          "../assets/products-gallery/sneakers-men-5/showcase3.jpg",
+          "../assets/products-gallery/sneakers-men-5/showcase4.jpg",
+          "../assets/products-gallery/sneakers-men-5/showcase5.jpg"
+        ]
+      }
+    },
+    {
+      "key": 11,
+      "name": "Men Sneakers Outdoor Stylish",
+      "category": "sneakers",
+      "description": "Autumn Men Sneakers Natural Pig Skin Material Male Trainers Outdoor Stylish Shoes Lace-up Flats Non-slip Rubber Sole Gray",
+      "stock": [
+        {
+          "size": 36,
+          "colors": [
+            {
+              "numberOfItems": 0,
+              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+            },
+            {
+              "numberOfItems": 6,
+              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+            },
+            {
+              "numberOfItems": 2,
+              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+            }
+          ]
+        },
+        {
+          "size": 37,
+          "colors": [
+            {
+              "numberOfItems": 2,
+              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+            },
+            {
+              "numberOfItems": 0,
+              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+            },
+            {
+              "numberOfItems": 2,
+              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+            }
+          ]
+        },
+        {
+          "size": 38,
+          "colors": [
+            {
+              "numberOfItems": 0,
+              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+            },
+            {
+              "numberOfItems": 6,
+              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+            },
+            {
+              "numberOfItems": 3,
+              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+            }
+          ]
+        },
+        {
+          "size": 39,
+          "colors": [
+            {
+              "numberOfItems": 4,
+              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+            },
+            {
+              "numberOfItems": 8,
+              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+            },
+            {
+              "numberOfItems": 2,
+              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+            }
+          ]
+        },
+        {
+          "size": 40,
+          "colors": [
+            {
+              "numberOfItems": 4,
+              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+            },
+            {
+              "numberOfItems": 0,
+              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+            },
+            {
+              "numberOfItems": 0,
+              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+            }
+          ]
+        },
+        {
+          "size": 41,
+          "colors": [
+            {
+              "numberOfItems": 4,
+              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+            },
+            {
+              "numberOfItems": 6,
+              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+            },
+            {
+              "numberOfItems": 2,
+              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+            }
+          ]
+        },
+        {
+          "size": 42,
+          "colors": [
+            {
+              "numberOfItems": 4,
+              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+            },
+            {
+              "numberOfItems": 10,
+              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+            },
+            {
+              "numberOfItems": 2,
+              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+            }
+          ]
+        }
+      ],
+      "price": {
+        "current": 45,
+        "discount": true,
+        "old": 69
+      },
+      "gender": "male",
+      "specs": {
+        "Shoes Type": "Basic",
+        "Season": "Spring/Autumn",
+        "Line material": "Nylon",
+        "Seals": "Lace Up",
+        "Upper material": "Faux Nubuck",
+        "Insole Material": "Eva",
+        "Outsole material": "Rubber"
+      },
+      "gallery": {
+        "main": "../assets/products-gallery/sneakers-men-5/main.jpg",
+        "images": [
+          "../assets/products-gallery/sneakers-men-5/main.jpg",
+          "../assets/products-gallery/sneakers-men-5/showcase1.jpg",
+          "../assets/products-gallery/sneakers-men-5/showcase2.jpg",
+          "../assets/products-gallery/sneakers-men-5/showcase3.jpg",
+          "../assets/products-gallery/sneakers-men-5/showcase4.jpg",
+          "../assets/products-gallery/sneakers-men-5/showcase5.jpg"
+        ]
+      }
+    }
+  ]
+}
