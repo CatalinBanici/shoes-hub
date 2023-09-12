@@ -2,13 +2,20 @@ import { useState } from "react";
 import data from "./data/data.json";
 
 function App() {
-  console.log(data);
+  // console.log(data);
   const [colorIndex, setColorIndex] = useState(0);
-  const color = data.products[10].stock[colorIndex].colors;
-  console.log(color);
+  // const color = data.products.map((e) => {
+  //   return e.stock[colorIndex].colors;
+  // });
+  const color = data.products[0].stock[colorIndex].colors;
+  const size = data.products.map((e) => {
+    return e.stock;
+  });
+  // console.log(size);
+  // console.log(color);
   return (
     <div className="App">
-      {/* {data.products.map((item, index) => (
+      {data.products.map((item, index) => (
         <div key={index}>
           <h2>{item.name}</h2>
           <p>{item.description}</p>
@@ -35,40 +42,21 @@ function App() {
               key={index}
             />
           ))}
-          <div>
-            <h2>Colors</h2>
-            <div style={{ display: "flex", gap: "10px" }}>
-              {item.colors.map((color, index) => (
-                <div key={index}>
-                  <p>{Object.keys(color)}</p>
-                  <img
-                    style={{ width: "100px", height: "100px" }}
-                    src={`${Object.values(color)}`}
-                  />
-                </div>
-              ))}
-            </div>
-            <h3>Sizes</h3>
-            <div style={{ display: "flex", gap: "10px" }} key={index}>
-              {item.sizes.map((size, index) => (
-                <h4>{size}</h4>
-              ))}
-            </div>
-          </div>
           <hr></hr>
           <hr></hr>
           <hr></hr>
           <hr></hr>
         </div>
-      ))} */}
-      {data.products[10].stock.map((e, i) => (
+      ))}
+
+      {data.products[0].stock.map((e, i) => (
         <div key={i}>
           <button onClick={() => setColorIndex(i)}>{e.size}</button>
         </div>
       ))}
 
       {color.map((e, i) => (
-        <div>
+        <div key={i}>
           <p>{Object.keys(e)[1]}</p>
           <img
             src={`${Object.values(e)[1]}`}

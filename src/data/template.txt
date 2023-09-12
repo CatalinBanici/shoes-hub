@@ -26,3 +26,221 @@
       ]
     }
 }
+
+ {
+    "id": "__STRING__",
+    "name": "__STRING__",
+    "category": "__STRING__",
+    "description": "__STRING__",
+    "stock": [
+        {
+          "size": __NUMBER__,
+          "colors": [
+            {
+              "numberOfItems": __NUMBER__,
+              "__COLORNAME__": "../assets/products-gallery/__PATH__/colors/__PATH__.jpg"
+            },
+          ]
+        },
+    ],
+    "price": {
+      "current": __NUMBER__,
+      "discount": __BOOLEAN__,
+      "old": __NUMBER__
+    },
+    "gender": "__STRING__",
+    "specs": {
+      "__SPEC__": "__STRING__"      
+    },
+    "gallery": {
+      "main": "../assets/products-gallery/__PATH__/__PATH__.jpg",
+      "images": [
+        "../assets/products-gallery/__PATH__/__PATH__.jpg"
+      ]
+    }
+}
+
+{
+      "key": 11,
+      "name": "Men Sneakers Outdoor Stylish",
+      "category": "sneakers",
+      "description": "Autumn Men Sneakers Natural Pig Skin Material Male Trainers Outdoor Stylish Shoes Lace-up Flats Non-slip Rubber Sole Gray",
+      "stock": [
+        {
+          "size": 36,
+          "colors": [
+            {
+              "numberOfItems": 0,
+              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+            },
+            {
+              "numberOfItems": 6,
+              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+            },
+            {
+              "numberOfItems": 2,
+              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+            }
+          ]
+        },
+        {
+          "size": 37,
+          "colors": [
+            {
+              "numberOfItems": 2,
+              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+            },
+            {
+              "numberOfItems": 0,
+              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+            },
+            {
+              "numberOfItems": 2,
+              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+            }
+          ]
+        },
+        {
+          "size": 38,
+          "colors": [
+            {
+              "numberOfItems": 0,
+              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+            },
+            {
+              "numberOfItems": 6,
+              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+            },
+            {
+              "numberOfItems": 3,
+              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+            }
+          ]
+        },
+        {
+          "size": 39,
+          "colors": [
+            {
+              "numberOfItems": 4,
+              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+            },
+            {
+              "numberOfItems": 8,
+              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+            },
+            {
+              "numberOfItems": 2,
+              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+            }
+          ]
+        },
+        {
+          "size": 40,
+          "colors": [
+            {
+              "numberOfItems": 4,
+              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+            },
+            {
+              "numberOfItems": 0,
+              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+            },
+            {
+              "numberOfItems": 0,
+              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+            }
+          ]
+        },
+        {
+          "size": 41,
+          "colors": [
+            {
+              "numberOfItems": 4,
+              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+            },
+            {
+              "numberOfItems": 6,
+              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+            },
+            {
+              "numberOfItems": 2,
+              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+            }
+          ]
+        },
+        {
+          "size": 42,
+          "colors": [
+            {
+              "numberOfItems": 4,
+              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+            },
+            {
+              "numberOfItems": 10,
+              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+            },
+            {
+              "numberOfItems": 2,
+              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+            }
+          ]
+        }
+      ],
+      "price": {
+        "current": 45,
+        "discount": true,
+        "old": 69
+      },
+      "gender": "male",
+      "specs": {
+        "Shoes Type": "Basic",
+        "Season": "Spring/Autumn",
+        "Line material": "Nylon",
+        "Seals": "Lace Up",
+        "Upper material": "Faux Nubuck",
+        "Insole Material": "Eva",
+        "Outsole material": "Rubber"
+      },
+      "gallery": {
+        "main": "../assets/products-gallery/sneakers-men-5/main.jpg",
+        "images": [
+          "../assets/products-gallery/sneakers-men-5/main.jpg",
+          "../assets/products-gallery/sneakers-men-5/showcase1.jpg",
+          "../assets/products-gallery/sneakers-men-5/showcase2.jpg",
+          "../assets/products-gallery/sneakers-men-5/showcase3.jpg",
+          "../assets/products-gallery/sneakers-men-5/showcase4.jpg",
+          "../assets/products-gallery/sneakers-men-5/showcase5.jpg"
+        ]
+      }
+    }
+
+
+
+    const [colorIndex, setColorIndex] = useState(0);
+    const color = data.products[0].stock[colorIndex].colors;
+
+{/* {data.products[0].stock.map((e, i) => (
+        <div key={i}>
+          <button onClick={() => setColorIndex(i)}>{e.size}</button>
+        </div>
+      ))}
+
+      {color.map((e, i) => (
+        <div>
+          <p>{Object.keys(e)[1]}</p>
+          <img
+            src={`${Object.values(e)[1]}`}
+            key={i}
+            style={
+              Object.values(e)[0] <= 0
+                ? {
+                    width: "100px",
+                    height: "100px",
+                    border: "5px solid red",
+                  }
+                : { width: "100px", height: "100px" }
+            }
+          />
+          <p>in stock: {e.numberOfItems}</p>
+        </div>
+      ))} */}
