@@ -16,6 +16,9 @@ module.exports = {
         sm: { max: "639px" },
         // => @media (max-width: 639px) { ... }
       },
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+      },
     },
   },
   plugins: [],
