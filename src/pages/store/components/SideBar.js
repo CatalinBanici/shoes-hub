@@ -7,14 +7,15 @@ export default function SideBar() {
   const categories = ["sneakers", "boots"];
   const dispatch = useDispatch();
   return (
-    <div>
-      <div>
-        <h2>Categories</h2>
-      </div>
-      <div>
-        <div>
+    <div className=" sticky top-[120px] flex h-screen flex-col bg-white p-20">
+      <div className="sticky top-[120px]">
+        <div className=" py-5">
+          <h2 className="text-bold text-xl text-gray-900">Categories</h2>
+        </div>
+        <div className="flex flex-col py-10">
           {categories.map((category, index) => (
             <Link
+              className=" text-md py-2 text-gray-700"
               onClick={() => dispatch(filterByCategory(category))}
               key={index}
               to={`${category}`}

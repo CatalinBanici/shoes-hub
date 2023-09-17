@@ -498,11 +498,11 @@
           "colors": [
             {
               "numverOfItems": 10,
-              "Grey-1": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
+              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
             },
             {
               "numverOfItems": 10,
-              "Grey-2": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
+              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
             },
             {
               "numverOfItems": 10,
@@ -515,11 +515,11 @@
           "colors": [
             {
               "numverOfItems": 11,
-              "Grey-1": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
+              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
             },
             {
               "numverOfItems": 5,
-              "Grey-2": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
+              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
             },
             {
               "numverOfItems": 6,
@@ -532,11 +532,11 @@
           "colors": [
             {
               "numverOfItems": 4,
-              "Grey-1": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
+              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
             },
             {
               "numverOfItems": 8,
-              "Grey-2": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
+              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
             },
             {
               "numverOfItems": 10,
@@ -549,11 +549,11 @@
           "colors": [
             {
               "numverOfItems": 3,
-              "Grey-1": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
+              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
             },
             {
               "numverOfItems": 0,
-              "Grey-2": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
+              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
             },
             {
               "numverOfItems": 4,
@@ -566,11 +566,11 @@
           "colors": [
             {
               "numverOfItems": 5,
-              "Grey-1": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
+              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
             },
             {
               "numverOfItems": 1,
-              "Grey-2": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
+              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
             },
             {
               "numverOfItems": 6,
@@ -583,11 +583,11 @@
           "colors": [
             {
               "numverOfItems": 0,
-              "Grey-1": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
+              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
             },
             {
               "numverOfItems": 0,
-              "Grey-2": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
+              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
             },
             {
               "numverOfItems": 0,
@@ -600,11 +600,11 @@
           "colors": [
             {
               "numverOfItems": 0,
-              "Grey-1": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
+              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
             },
             {
               "numverOfItems": 1,
-              "Grey-2": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
+              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
             },
             {
               "numverOfItems": 4,
@@ -617,11 +617,11 @@
           "colors": [
             {
               "numverOfItems": 10,
-              "Grey-1": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
+              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
             },
             {
               "numverOfItems": 5,
-              "Grey-2": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
+              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
             },
             {
               "numverOfItems": 6,
@@ -634,11 +634,11 @@
           "colors": [
             {
               "numverOfItems": 5,
-              "Grey-1": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
+              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
             },
             {
               "numverOfItems": 6,
-              "Grey-2": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
+              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
             },
             {
               "numverOfItems": 10,
@@ -925,11 +925,11 @@
           "colors": [
             {
               "numberOfItems": 10,
-              "White-1": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
+              "White": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
             },
             {
               "numberOfItems": 10,
-              "White-2": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
+              "White": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
             }
           ]
         },
@@ -938,11 +938,11 @@
           "colors": [
             {
               "numberOfItems": 9,
-              "White-1": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
+              "White": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
             },
             {
               "numberOfItems": 7,
-              "White-2": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
+              "White": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
             }
           ]
         },
@@ -951,11 +951,11 @@
           "colors": [
             {
               "numberOfItems": 8,
-              "White-1": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
+              "White": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
             },
             {
               "numberOfItems": 4,
-              "White-2": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
+              "White": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
             }
           ]
         },
@@ -964,11 +964,11 @@
           "colors": [
             {
               "numberOfItems": 5,
-              "White-1": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
+              "White": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
             },
             {
               "numberOfItems": 3,
-              "White-2": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
+              "White": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
             }
           ]
         },
@@ -977,11 +977,11 @@
           "colors": [
             {
               "numberOfItems": 0,
-              "White-1": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
+              "White": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
             },
             {
               "numberOfItems": 1,
-              "White-2": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
+              "White": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
             }
           ]
         },
@@ -990,11 +990,11 @@
           "colors": [
             {
               "numberOfItems": 1,
-              "White-1": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
+              "White": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
             },
             {
               "numberOfItems": 0,
-              "White-2": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
+              "White": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
             }
           ]
         },
@@ -1003,11 +1003,11 @@
           "colors": [
             {
               "numberOfItems": 1,
-              "White-1": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
+              "White": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
             },
             {
               "numberOfItems": 2,
-              "White-2": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
+              "White": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
             }
           ]
         },
@@ -1016,11 +1016,11 @@
           "colors": [
             {
               "numberOfItems": 0,
-              "White-1": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
+              "White": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
             },
             {
               "numberOfItems": 0,
-              "White-2": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
+              "White": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
             }
           ]
         },
@@ -1029,11 +1029,11 @@
           "colors": [
             {
               "numberOfItems": 0,
-              "White-1": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
+              "White": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
             },
             {
               "numberOfItems": 0,
-              "White-2": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
+              "White": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
             }
           ]
         },
@@ -1042,11 +1042,11 @@
           "colors": [
             {
               "numberOfItems": 1,
-              "White-1": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
+              "White": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
             },
             {
               "numberOfItems": 0,
-              "White-2": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
+              "White": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
             }
           ]
         }
@@ -1328,11 +1328,11 @@
           "colors": [
             {
               "numberOfItems": 10,
-              "White-1": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
+              "White": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
             },
             {
               "numberOfItems": 8,
-              "White-2": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
+              "White": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
             }
           ]
         },
@@ -1341,11 +1341,11 @@
           "colors": [
             {
               "numberOfItems": 10,
-              "White-1": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
+              "White": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
             },
             {
               "numberOfItems": 10,
-              "White-2": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
+              "White": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
             }
           ]
         },
@@ -1354,11 +1354,11 @@
           "colors": [
             {
               "numberOfItems": 9,
-              "White-1": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
+              "White": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
             },
             {
               "numberOfItems": 10,
-              "White-2": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
+              "White": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
             }
           ]
         },
@@ -1367,11 +1367,11 @@
           "colors": [
             {
               "numberOfItems": 11,
-              "White-1": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
+              "White": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
             },
             {
               "numberOfItems": 10,
-              "White-2": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
+              "White": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
             }
           ]
         },
@@ -1380,11 +1380,11 @@
           "colors": [
             {
               "numberOfItems": 10,
-              "White-1": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
+              "White": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
             },
             {
               "numberOfItems": 7,
-              "White-2": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
+              "White": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
             }
           ]
         },
@@ -1393,11 +1393,11 @@
           "colors": [
             {
               "numberOfItems": 9,
-              "White-1": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
+              "White": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
             },
             {
               "numberOfItems": 6,
-              "White-2": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
+              "White": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
             }
           ]
         },
@@ -1406,11 +1406,11 @@
           "colors": [
             {
               "numberOfItems": 5,
-              "White-1": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
+              "White": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
             },
             {
               "numberOfItems": 2,
-              "White-2": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
+              "White": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
             }
           ]
         },
@@ -1419,11 +1419,11 @@
           "colors": [
             {
               "numberOfItems": 4,
-              "White-1": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
+              "White": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
             },
             {
               "numberOfItems": 3,
-              "White-2": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
+              "White": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
             }
           ]
         },
@@ -1432,11 +1432,11 @@
           "colors": [
             {
               "numberOfItems": 8,
-              "White-1": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
+              "White": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
             },
             {
               "numberOfItems": 7,
-              "White-2": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
+              "White": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
             }
           ]
         },
@@ -1445,11 +1445,11 @@
           "colors": [
             {
               "numberOfItems": 5,
-              "White-1": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
+              "White": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
             },
             {
               "numberOfItems": 10,
-              "White-2": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
+              "White": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
             }
           ]
         }
@@ -1667,7 +1667,7 @@
           "colors": [
             {
               "numberOfItems": 10,
-              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
             },
             {
               "numberOfItems": 8,
@@ -1675,7 +1675,7 @@
             },
             {
               "numberOfItems": 7,
-              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
             }
           ]
         },
@@ -1684,7 +1684,7 @@
           "colors": [
             {
               "numberOfItems": 7,
-              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
             },
             {
               "numberOfItems": 8,
@@ -1692,7 +1692,7 @@
             },
             {
               "numberOfItems": 10,
-              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
             }
           ]
         },
@@ -1701,7 +1701,7 @@
           "colors": [
             {
               "numberOfItems": 6,
-              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
             },
             {
               "numberOfItems": 8,
@@ -1709,7 +1709,7 @@
             },
             {
               "numberOfItems": 7,
-              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
             }
           ]
         },
@@ -1718,7 +1718,7 @@
           "colors": [
             {
               "numberOfItems": 6,
-              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
             },
             {
               "numberOfItems": 4,
@@ -1726,7 +1726,7 @@
             },
             {
               "numberOfItems": 3,
-              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
             }
           ]
         },
@@ -1735,7 +1735,7 @@
           "colors": [
             {
               "numberOfItems": 6,
-              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
             },
             {
               "numberOfItems": 4,
@@ -1743,7 +1743,7 @@
             },
             {
               "numberOfItems": 3,
-              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
             }
           ]
         },
@@ -1752,7 +1752,7 @@
           "colors": [
             {
               "numberOfItems": 3,
-              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
             },
             {
               "numberOfItems": 2,
@@ -1760,7 +1760,7 @@
             },
             {
               "numberOfItems": 1,
-              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
             }
           ]
         },
@@ -1769,7 +1769,7 @@
           "colors": [
             {
               "numberOfItems": 6,
-              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
             },
             {
               "numberOfItems": 4,
@@ -1777,7 +1777,7 @@
             },
             {
               "numberOfItems": 1,
-              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
             }
           ]
         },
@@ -1786,7 +1786,7 @@
           "colors": [
             {
               "numberOfItems": 5,
-              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
             },
             {
               "numberOfItems": 6,
@@ -1794,7 +1794,7 @@
             },
             {
               "numberOfItems": 7,
-              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
             }
           ]
         },
@@ -1803,7 +1803,7 @@
           "colors": [
             {
               "numberOfItems": 10,
-              "Grey-1": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
             },
             {
               "numberOfItems": 8,
@@ -1811,7 +1811,7 @@
             },
             {
               "numberOfItems": 10,
-              "Grey-2": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
             }
           ]
         }

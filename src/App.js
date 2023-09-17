@@ -23,9 +23,11 @@ function App() {
   );
 
   return (
-    <>
-      <RouterProvider router={router} />
-    </>
+    <body className="bg-gray-100">
+      <div className="font-roboto m-auto flex w-full max-w-[1600px]">
+        <RouterProvider router={router} />
+      </div>
+    </body>
   );
 }
 
