@@ -12,7 +12,7 @@ export default function ProductCard({ product }) {
   const discount = divide * 100;
 
   return (
-    <div className=" flex h-[350px] w-60 flex-col rounded-md bg-white shadow-xl duration-150 ease-out hover:scale-105">
+    <div className=" flex h-[350px] w-60 flex-col rounded-lg bg-white shadow-xl duration-150 ease-out hover:scale-105">
       <div className="relative overflow-hidden border-b-2">
         {product.price.discount && (
           <span className="absolute -left-7 top-5 w-32 rotate-[320deg] bg-black text-center text-sm text-white">
@@ -20,7 +20,7 @@ export default function ProductCard({ product }) {
           </span>
         )}
         <img
-          className=" h-60 w-60 rounded-t-md"
+          className=" h-60 w-60 rounded-t-lg"
           src={product.gallery.main}
           alt={product.name}
         />
@@ -43,9 +43,11 @@ export default function ProductCard({ product }) {
           </div>
           <div className="flex flex-row items-center">
             <div className="mx-2 text-xl">{"$" + product.price.current}</div>
-            <div className=" mx-2 text-sm text-gray-600 line-through">
-              {product.price.discount && "$" + product.price.old}
-            </div>
+            {product.price.discount && (
+              <div className=" mx-2 text-sm text-gray-600 line-through">
+                {product.price.discount && "$" + product.price.old}
+              </div>
+            )}
           </div>
         </div>
       </div>

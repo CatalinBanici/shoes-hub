@@ -7,7 +7,7 @@ export default function SideBar() {
   const categories = ["sneakers", "boots"];
   const dispatch = useDispatch();
   return (
-    <div className=" sticky top-[120px] flex h-screen flex-col bg-white p-20">
+    <div className=" sticky top-[120px] ml-10 flex  flex-col bg-white p-20">
       <div className="sticky top-[120px]">
         <div className=" py-5">
           <h2 className="text-bold text-xl text-gray-900">Categories</h2>
