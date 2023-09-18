@@ -11,7 +11,9 @@ export const productsSlice = createSlice({
     filterByCategory(state, action) {
       try {
         const categoryFilter = data.products.filter(
-          (product) => product.category === action.payload,
+          (product) =>
+            product.category === action.payload[0] &&
+            product.gender === action.payload[1],
         );
         state.filteredProducts = categoryFilter;
         const saveState = JSON.stringify(categoryFilter);
