@@ -8,15 +8,25 @@ export const productsSlice = createSlice({
       JSON.parse(sessionStorage.getItem("filteredProducts")) || data.products,
   },
   reducers: {
-    filterByCategory(state, action) {
+    filterByCategoryMale(state, action) {
       try {
-        const categoryFilter = data.products.filter(
-          (product) =>
-            product.category === action.payload[0] &&
-            product.gender === action.payload[1],
+        const categoryFilterMale = data.products.male.filter(
+          (product) => product.category === action.payload,
         );
-        state.filteredProducts = categoryFilter;
-        const saveState = JSON.stringify(categoryFilter);
+        state.filteredProducts = categoryFilterMale;
+        const saveState = JSON.stringify(categoryFilterMale);
+        sessionStorage.setItem("filteredProducts", saveState);
+      } catch (error) {
+        return error;
+      }
+    },
+    filterByCategoryFemale(state, action) {
+      try {
+        const categoryFilterMale = data.products.female.filter(
+          (product) => product.category === action.payload,
+        );
+        state.filteredProducts = categoryFilterMale;
+        const saveState = JSON.stringify(categoryFilterMale);
         sessionStorage.setItem("filteredProducts", saveState);
       } catch (error) {
         return error;
@@ -25,5 +35,6 @@ export const productsSlice = createSlice({
   },
 });
 
-export const { filterByCategory } = productsSlice.actions;
+export const { filterByCategoryMale, filterByCategoryFemale } =
+  productsSlice.actions;
 export default productsSlice.reducer;

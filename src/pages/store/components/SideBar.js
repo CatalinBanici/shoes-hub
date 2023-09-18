@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
-import { filterByCategory } from "../../../redux/features/slices/productsSlice";
+import {
+  filterByCategoryMale,
+  filterByCategoryFemale,
+} from "../../../redux/features/slices/productsSlice";
 import { AiOutlineDown } from "react-icons/ai";
 import data from "../../../data/data.json";
 
@@ -11,16 +14,23 @@ export default function SideBar() {
 
   const dispatch = useDispatch();
 
-  const categoriesData = data.products.map((product) => product.category);
-  const categories = [...new Set(categoriesData)];
+  // getting the category type dynamically to be mapped in the categories section.
+  // note: if one new category type is added inside the json data, it will automatically be renderd in the categories section
+  const categoriesDataMale = data.products.male.map(
+    (product) => product.category,
+  );
+  const categoriesMale = [...new Set(categoriesDataMale)];
 
-  const genders = ["male", "female"];
+  const categoriesDataFemale = data.products.female.map(
+    (product) => product.category,
+  );
+  const categoriesFemale = [...new Set(categoriesDataFemale)];
 
   return (
     <div className=" sticky top-[120px] ml-10 flex  flex-col bg-white p-20">
       <div className="sticky top-[120px]">
         <div className=" py-5">
-          <h2 className="text-bold text-xl text-gray-900">Categories</h2>
+          <h2 className="text-bold text-2xl text-gray-900">Categories</h2>
         </div>
 
         {/* men categories */}
@@ -45,16 +55,11 @@ export default function SideBar() {
                 : "ml-3 flex flex-col py-4"
             }
           >
-            {categories.map((category, index) => (
+            {categoriesMale.map((category, index) => (
               <Link
                 className=" text-md my-1 text-gray-700"
                 onClick={() =>
-                  dispatch(
-                    filterByCategory([
-                      category.toLowerCase(),
-                      genders[0].toLowerCase(),
-                    ]),
-                  )
+                  dispatch(filterByCategoryMale(category.toLowerCase()))
                 }
                 key={index}
                 to={`${category}`}
@@ -87,16 +92,11 @@ export default function SideBar() {
                 : "ml-3 flex flex-col py-4"
             }
           >
-            {categories.map((category, index) => (
+            {categoriesFemale.map((category, index) => (
               <Link
                 className=" text-md my-1 text-gray-700"
                 onClick={() =>
-                  dispatch(
-                    filterByCategory([
-                      category.toLowerCase(),
-                      genders[1].toLowerCase(),
-                    ]),
-                  )
+                  dispatch(filterByCategoryFemale(category.toLowerCase()))
                 }
                 key={index}
                 to={`${category}`}
