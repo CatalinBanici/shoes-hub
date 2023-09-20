@@ -1,4 +1,36 @@
 {
+  "carousel": [
+    {
+      "id": 1,
+      "title": "Laborum sit laboris eiusmod magna amet cillum magna.",
+      "text": "Quis consectetur officia non incididunt Lorem anim consectetur excepteur ad.",
+      "image": "../assets/carousel-gallery/shoes-preview-1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Laborum sit laboris eiusmod magna amet cillum magna.",
+      "text": "Occaecat anim proident cupidatat ut laboris.",
+      "image": "../assets/carousel-gallery/shoes-preview-2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Laborum sit laboris eiusmod magna amet cillum magna.",
+      "text": "Pariatur non laboris officia culpa dolor eu ipsum est non proident amet dolor.",
+      "image": "../assets/carousel-gallery/shoes-preview-3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Laborum sit laboris eiusmod magna amet cillum magna.",
+      "text": "Ullamco Lorem in commodo ut ipsum nostrud deserunt ullamco velit id.",
+      "image": "../assets/carousel-gallery/shoes-preview-4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Laborum sit laboris eiusmod magna amet cillum magna.",
+      "text": "Ipsum enim in officia anim incididunt voluptate cupidatat ullamco reprehenderit.",
+      "image": "../assets/carousel-gallery/shoes-preview-5.jpg"
+    }
+  ],
   "products": {
     "male": [
       {

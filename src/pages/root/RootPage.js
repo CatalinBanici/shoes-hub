@@ -1,13 +1,35 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import { Outlet } from "react-router-dom";
 
 export default function RootPage() {
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScrollPosition(position);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  console.log(scrollPosition);
+
   return (
     // <div className=" relative m-auto flex w-full max-w-[1600px] flex-col ">
     <body className="font-roboto  flex w-full flex-col  bg-gray-100">
-      <header className=" fixed z-10 flex h-20 w-full items-center bg-white shadow shadow-gray-200">
-        <Navbar />
+      <header
+        className={`${
+          scrollPosition === 0
+            ? "bg-[hsl(0, 0%, 100%, 0.1)] backdrop-blur-lg"
+            : "bg-white"
+        } fixed z-10 flex h-20 w-full items-center shadow shadow-gray-200  duration-150 ease-out`}
+      >
+        <Navbar scrollPosition={scrollPosition} />
       </header>
       <main className=" w-full  pb-32">
         <Outlet />
