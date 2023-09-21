@@ -29,8 +29,8 @@ export default function Carousel() {
           delay: 5000,
           disableOnInteraction: false,
         }}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={() => null}
+        onSwiper={(swiper) => null}
       >
         {data.carousel.map((element) => (
           <SwiperSlide key={element.id}>

@@ -62,7 +62,6 @@ export default function SideBar() {
                   dispatch(filterByCategoryMale(category.toLowerCase()))
                 }
                 key={index}
-                to={`${category}`}
               >
                 {category.charAt(0).toUpperCase() + category.slice(1)}
               </Link>
@@ -99,7 +98,6 @@ export default function SideBar() {
                   dispatch(filterByCategoryFemale(category.toLowerCase()))
                 }
                 key={index}
-                to={`${category}`}
               >
                 {category.charAt(0).toUpperCase() + category.slice(1)}
               </Link>

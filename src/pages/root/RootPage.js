@@ -17,8 +17,6 @@ export default function RootPage() {
     };
   }, []);
 
-  console.log(scrollPosition);
-
   return (
     // <div className=" relative m-auto flex w-full max-w-[1600px] flex-col ">
     <body className="font-roboto  flex w-full flex-col  bg-gray-100">
