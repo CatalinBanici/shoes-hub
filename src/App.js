@@ -7,8 +7,7 @@ import {
 import RootPage from "./pages/root/RootPage";
 import Home from "./pages/home/Home";
 import Store from "./pages/store/Store";
-
-import ProductsList from "./pages/store/components/ProductsList";
+import ProductPage from "./pages/store/components/ProductPage";
 
 function App() {
   const router = createBrowserRouter(
@@ -16,7 +15,7 @@ function App() {
       <Route path="/" element={<RootPage />}>
         <Route index element={<Home />} />
         <Route path="store" element={<Store />} />
-        <Route path=":category" element={<ProductsList />} />
+        <Route path="/store/:id" element={<ProductPage />} />
       </Route>,
     ),
   );

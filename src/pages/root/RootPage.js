@@ -29,7 +29,7 @@ export default function RootPage() {
       >
         <Navbar scrollPosition={scrollPosition} />
       </header>
-      <main className=" w-full  pb-32">
+      <main className=" relative top-20 w-full pb-32">
         <Outlet />
       </main>
       <footer className="w-full bg-gray-500">
