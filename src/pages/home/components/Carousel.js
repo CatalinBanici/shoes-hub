@@ -23,7 +23,6 @@ export default function Carousel() {
         slidesPerView={1}
         navigation
         loop={true}
-        pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
         autoplay={{
           delay: 5000,
@@ -35,7 +34,7 @@ export default function Carousel() {
         {data.carousel.map((element) => (
           <SwiperSlide key={element.id}>
             <img
-              className=" h-screen w-screen object-cover"
+              className="h-screen w-screen object-cover"
               src={element.image}
               alt={element.title}
             />

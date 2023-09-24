@@ -4,7 +4,7 @@ import Categories from "./components/Categories";
 
 export default function Home() {
   return (
-    <div>
+    <div className="relative top-[-80px] ">
       <Carousel />
       <Categories />
     </div>
