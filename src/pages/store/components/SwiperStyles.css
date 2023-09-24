@@ -21,6 +21,12 @@
   border-radius: 50%;
 }
 
+.swiper-pagination-bullet {
+  opacity: 100%;
+  background-color: hsl(0, 0%, 92%);
+  border: 1px solid rgb(56, 56, 56);
+}
+
 .swiper-pagination-bullet-active {
-  background-color: rgb(46, 46, 46);
+  background-color: rgb(56, 56, 56);
 }
