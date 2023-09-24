@@ -21,8 +21,8 @@ export default function ProductPage() {
   const images = product[0].gallery.images.map((image) => {
     return image;
   });
-  console.log(images);
-  console.log("product", product);
+  // console.log(images);
+  // console.log("product", product);
   return (
     <div className="mx-auto flex w-full max-w-[1600px] flex-row">
       <div className=" m-10 w-[45%]">

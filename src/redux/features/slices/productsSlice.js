@@ -1,15 +1,25 @@
 import { createSlice } from "@reduxjs/toolkit";
 import data from "../../../data/data.json";
 
+let randomisedData = data.products.male
+  .concat(data.products.female)
+  .sort((a, b) => {
+    if (a.id < b.id) {
+      return -1;
+    }
+    return null;
+  });
+randomisedData.sort(() => (Math.random() > 0.5 ? 1 : -1));
+
+// console.log("randomisedData", randomisedData);
+
 export const productsSlice = createSlice({
   name: "products",
   initialState: {
     filteredProducts:
-      JSON.parse(sessionStorage.getItem("filteredProducts")) ||
-      data.products.male.concat(data.products.female),
+      JSON.parse(sessionStorage.getItem("filteredProducts")) || randomisedData,
     singleProduct:
-      JSON.parse(sessionStorage.getItem("singleProduct")) ||
-      data.products.male.concat(data.products.female),
+      JSON.parse(sessionStorage.getItem("singleProduct")) || randomisedData,
   },
   reducers: {
     filterByCategoryMale(state, action) {
