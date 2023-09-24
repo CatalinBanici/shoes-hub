@@ -7,6 +7,7 @@ import {
   Thumbs,
   Pagination,
   Scrollbar,
+  Autoplay,
 } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -38,7 +39,11 @@ export default function ProductPage() {
             swiper:
               thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
           }}
-          modules={[FreeMode, Navigation, Thumbs, Pagination]}
+          autoplay={{
+            delay: 5000,
+            disableOnInteraction: true,
+          }}
+          modules={[FreeMode, Navigation, Thumbs, Pagination, Autoplay]}
           className="mySwiper2"
         >
           {images.map((image, index) => (
