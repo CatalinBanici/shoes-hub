@@ -45,7 +45,7 @@ export default function ProductCard({ product }) {
             <div className="mx-2 text-xl">{"$" + product.price.current}</div>
             {product.price.discount && (
               <div className=" mx-2 text-sm text-gray-600 line-through">
-                {product.price.discount && "$" + product.price.old}
+                ${product.price.old}
               </div>
             )}
           </div>
