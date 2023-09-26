@@ -1,13 +1,17 @@
 import React, { useState } from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { addToCart } from "../../../redux/features/slices/cartSlice";
 
 export default function ProductSection() {
   const [colorIndex, setColorIndex] = useState(0);
+  const [colorValue, setColorValue] = useState("");
+  const [sizeValue, setSizeValue] = useState("");
   const product = useSelector((state) => state.products.singleProduct);
   //getting the discount % if there is any
   const substract = product[0].price.current - product[0].price.old;
   const divide = substract / product[0].price.old;
   const discount = divide * 100;
+  const dispatch = useDispatch();
 
   const colors = product[0].stock[colorIndex].colors;
   console.log("colors", colors);
@@ -16,6 +20,9 @@ export default function ProductSection() {
   });
   const outOfStock = sizes.reduce((a, b) => a + b, 0);
   console.log("sizes", sizes);
+  console.log("out of stock", outOfStock);
+  console.log("color value", colorValue);
+  console.log("size value", sizeValue);
   return (
     <section className="my-10 ml-5 mr-10 w-[55%]">
       <div className="mb-5 bg-white p-5">
@@ -60,11 +67,13 @@ export default function ProductSection() {
                     name="color"
                     type="radio"
                     disabled={Object.values(color)[0] <= 0}
+                    value={colorValue}
+                    onChange={(e) => setColorValue(Object.keys(color)[1])}
                   />
                   <img
                     className={`${
                       Object.values(color)[0] <= 0 && " opacity-50"
-                    } border-gray absolute left-0 top-0 h-full w-full border-2 peer-checked:border-gray-600  `}
+                    } border-gray absolute left-0 top-0 h-full w-full border-2 peer-checked:border-gray-600 peer-disabled:border-red-500  `}
                     src={`${Object.values(color)[1]}`}
                   />
                 </div>
@@ -89,7 +98,12 @@ export default function ProductSection() {
                   type="radio"
                   id={index}
                   name="size"
-                  onChange={() => setColorIndex(index)}
+                  value={sizeValue}
+                  onChange={() => {
+                    setColorIndex(index);
+                    setColorValue("");
+                    setSizeValue(item.size);
+                  }}
                   disabled={
                     // to work on this shit
                     colorIndex === index && outOfStock === 0 ? true : false
@@ -103,6 +117,26 @@ export default function ProductSection() {
           </div>
         </div>
       </div>
+      <button
+        className=" disabled:bg-gray-500"
+        onClick={() =>
+          colorValue &&
+          sizeValue &&
+          dispatch(
+            addToCart({
+              id: product[0].id,
+              img: product[0].gallery.main,
+              amount: 1,
+              price: product[0].price.current,
+              name: product[0].name,
+              size: sizeValue,
+              color: colorValue,
+            }),
+          )
+        }
+      >
+        add
+      </button>
     </section>
   );
 }
