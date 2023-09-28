@@ -27,7 +27,9 @@ export default function ProductCard({ product }) {
       </div>
       <div className="flex h-max flex-col">
         <div className="my-2">
-          <h3 className=" text-md text-center font-semibold">{product.name}</h3>
+          <h3 className=" text-md mx-2 text-center font-semibold">
+            {product.name}
+          </h3>
         </div>
         <div className="m-2 flex  flex-row items-center justify-between">
           <div className="flex  flex-row">
