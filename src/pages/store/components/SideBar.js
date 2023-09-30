@@ -16,14 +16,10 @@ export default function SideBar() {
 
   // getting the category type dynamically to be mapped in the categories section.
   // note: if one new category type is added inside the json data, it will automatically be renderd in the categories section
-  const categoriesDataMale = data.products.male.map(
-    (product) => product.category,
-  );
+  const categoriesDataMale = data.products.map((product) => product.category);
   const categoriesMale = [...new Set(categoriesDataMale)];
 
-  const categoriesDataFemale = data.products.female.map(
-    (product) => product.category,
-  );
+  const categoriesDataFemale = data.products.map((product) => product.category);
   const categoriesFemale = [...new Set(categoriesDataFemale)];
 
   return (
