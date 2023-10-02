@@ -4,7 +4,7 @@ export default function ProductCard({ product }) {
   // getting each individual color
   const stock = product.stock.map((e) => e);
   const colorsStock = stock[1].colors;
-  const colors = colorsStock.map((e) => Object.keys(e)[1].toLowerCase());
+  const colorValues = colorsStock.map((e) => e.colorValue);
 
   //getting the discount % if there is any
   const substract = product.price.current - product.price.old;
@@ -33,7 +33,7 @@ export default function ProductCard({ product }) {
         </div>
         <div className="m-2 flex  flex-row items-center justify-between">
           <div className="flex  flex-row">
-            {colors.map((color, index) => (
+            {colorValues.map((color, index) => (
               <div
                 key={index}
                 className="ml-1 h-4 w-4 rounded-full border-2 border-gray-300"

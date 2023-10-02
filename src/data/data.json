@@ -43,15 +43,21 @@
           "colors": [
             {
               "numberOfItems": 10,
-              "Blue": "../assets/products-gallery/sneakers-men-1/colors/blue.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
               "numberOfItems": 8,
-              "Black": "../assets/products-gallery/sneakers-men-1/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
               "numberOfItems": 5,
-              "White": "../assets/products-gallery/sneakers-men-1/colors/white.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             }
           ]
         },
@@ -59,16 +65,22 @@
           "size": 38,
           "colors": [
             {
-              "numberOfItems": 5,
-              "Blue": "../assets/products-gallery/sneakers-men-1/colors/blue.jpg"
-            },
-            {
-              "numberOfItems": 6,
-              "Black": "../assets/products-gallery/sneakers-men-1/colors/black.jpg"
-            },
-            {
               "numberOfItems": 8,
-              "White": "../assets/products-gallery/sneakers-men-1/colors/white.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
+            },
+            {
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
+            },
+            {
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             }
           ]
         },
@@ -76,16 +88,22 @@
           "size": 39,
           "colors": [
             {
-              "numberOfItems": 10,
-              "Blue": "../assets/products-gallery/sneakers-men-1/colors/blue.jpg"
-            },
-            {
-              "numberOfItems": 4,
-              "Black": "../assets/products-gallery/sneakers-men-1/colors/black.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
               "numberOfItems": 8,
-              "White": "../assets/products-gallery/sneakers-men-1/colors/white.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
+            },
+            {
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             }
           ]
         },
@@ -93,16 +111,22 @@
           "size": 40,
           "colors": [
             {
-              "numberOfItems": 10,
-              "Blue": "../assets/products-gallery/sneakers-men-1/colors/blue.jpg"
-            },
-            {
-              "numberOfItems": 12,
-              "Black": "../assets/products-gallery/sneakers-men-1/colors/black.jpg"
-            },
-            {
               "numberOfItems": 5,
-              "White": "../assets/products-gallery/sneakers-men-1/colors/white.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
+            },
+            {
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
+            },
+            {
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             }
           ]
         },
@@ -111,15 +135,21 @@
           "colors": [
             {
               "numberOfItems": 4,
-              "Blue": "../assets/products-gallery/sneakers-men-1/colors/blue.jpg"
-            },
-            {
-              "numberOfItems": 6,
-              "Black": "../assets/products-gallery/sneakers-men-1/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
               "numberOfItems": 3,
-              "White": "../assets/products-gallery/sneakers-men-1/colors/white.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
+            },
+            {
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             }
           ]
         },
@@ -128,15 +158,21 @@
           "colors": [
             {
               "numberOfItems": 2,
-              "Blue": "../assets/products-gallery/sneakers-men-1/colors/blue.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
-              "numberOfItems": 8,
-              "Black": "../assets/products-gallery/sneakers-men-1/colors/black.jpg"
+              "numberOfItems": 1,
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
               "numberOfItems": 0,
-              "White": "../assets/products-gallery/sneakers-men-1/colors/white.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             }
           ]
         },
@@ -145,15 +181,21 @@
           "colors": [
             {
               "numberOfItems": 0,
-              "Blue": "../assets/products-gallery/sneakers-men-1/colors/blue.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
+            },
+            {
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
               "numberOfItems": 5,
-              "Black": "../assets/products-gallery/sneakers-men-1/colors/black.jpg"
-            },
-            {
-              "numberOfItems": 1,
-              "White": "../assets/products-gallery/sneakers-men-1/colors/white.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             }
           ]
         },
@@ -161,22 +203,28 @@
           "size": 44,
           "colors": [
             {
-              "numberOfItems": 6,
-              "Blue": "../assets/products-gallery/sneakers-men-1/colors/blue.jpg"
+              "numberOfItems": 10,
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
+            },
+            {
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
               "numberOfItems": 5,
-              "Black": "../assets/products-gallery/sneakers-men-1/colors/black.jpg"
-            },
-            {
-              "numberOfItems": 1,
-              "White": "../assets/products-gallery/sneakers-men-1/colors/white.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-1/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             }
           ]
         }
       ],
       "price": {
-        "current": 35,
+        "current": 39,
         "discount": true,
         "old": 49
       },
@@ -211,12 +259,16 @@
           "size": 37,
           "colors": [
             {
-              "numberOfItems": 12,
-              "Red": "../assets/products-gallery/sneakers-men-2/colors/red.jpg"
+              "numberOfItems": 10,
+              "colorImage": "../assets/products-gallery/sneakers-men-2/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             },
             {
-              "numberOfItems": 15,
-              "White": "../assets/products-gallery/sneakers-men-2/colors/white.jpg"
+              "numberOfItems": 10,
+              "colorImage": "../assets/products-gallery/sneakers-men-2/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             }
           ]
         },
@@ -224,12 +276,16 @@
           "size": 38,
           "colors": [
             {
-              "numberOfItems": 11,
-              "Red": "../assets/products-gallery/sneakers-men-2/colors/red.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-men-2/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             },
             {
-              "numberOfItems": 10,
-              "White": "../assets/products-gallery/sneakers-men-2/colors/white.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-men-2/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             }
           ]
         },
@@ -237,12 +293,16 @@
           "size": 39,
           "colors": [
             {
-              "numberOfItems": 14,
-              "Red": "../assets/products-gallery/sneakers-men-2/colors/red.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/sneakers-men-2/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             },
             {
-              "numberOfItems": 15,
-              "White": "../assets/products-gallery/sneakers-men-2/colors/white.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-men-2/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             }
           ]
         },
@@ -251,11 +311,15 @@
           "colors": [
             {
               "numberOfItems": 9,
-              "Red": "../assets/products-gallery/sneakers-men-2/colors/red.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-2/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             },
             {
-              "numberOfItems": 10,
-              "White": "../assets/products-gallery/sneakers-men-2/colors/white.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-men-2/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             }
           ]
         },
@@ -263,12 +327,16 @@
           "size": 41,
           "colors": [
             {
-              "numberOfItems": 11,
-              "Red": "../assets/products-gallery/sneakers-men-2/colors/red.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-men-2/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             },
             {
-              "numberOfItems": 8,
-              "White": "../assets/products-gallery/sneakers-men-2/colors/white.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-men-2/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             }
           ]
         },
@@ -276,12 +344,16 @@
           "size": 42,
           "colors": [
             {
-              "numberOfItems": 12,
-              "Red": "../assets/products-gallery/sneakers-men-2/colors/red.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-men-2/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             },
             {
-              "numberOfItems": 13,
-              "White": "../assets/products-gallery/sneakers-men-2/colors/white.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-men-2/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             }
           ]
         },
@@ -289,25 +361,16 @@
           "size": 43,
           "colors": [
             {
-              "numberOfItems": 12,
-              "Red": "../assets/products-gallery/sneakers-men-2/colors/red.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-men-2/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             },
             {
-              "numberOfItems": 16,
-              "White": "../assets/products-gallery/sneakers-men-2/colors/white.jpg"
-            }
-          ]
-        },
-        {
-          "size": 44,
-          "colors": [
-            {
-              "numberOfItems": 15,
-              "Red": "../assets/products-gallery/sneakers-men-2/colors/red.jpg"
-            },
-            {
-              "numberOfItems": 15,
-              "White": "../assets/products-gallery/sneakers-men-2/colors/white.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/sneakers-men-2/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             }
           ]
         }
@@ -346,15 +409,21 @@
           "colors": [
             {
               "numberOfItems": 10,
-              "Beige": "../assets/products-gallery/sneakers-men-3/colors/beige.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 12,
-              "Black": "../assets/products-gallery/sneakers-men-3/colors/black.jpg"
+              "numberOfItems": 10,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
               "numberOfItems": 9,
-              "Grey": "../assets/products-gallery/sneakers-men-3/colors/grey.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             }
           ]
         },
@@ -362,16 +431,22 @@
           "size": 37,
           "colors": [
             {
-              "numberOfItems": 6,
-              "Beige": "../assets/products-gallery/sneakers-men-3/colors/beige.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
               "numberOfItems": 9,
-              "Black": "../assets/products-gallery/sneakers-men-3/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 8,
-              "Grey": "../assets/products-gallery/sneakers-men-3/colors/grey.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             }
           ]
         },
@@ -379,16 +454,22 @@
           "size": 38,
           "colors": [
             {
-              "numberOfItems": 10,
-              "Beige": "../assets/products-gallery/sneakers-men-3/colors/beige.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 12,
-              "Black": "../assets/products-gallery/sneakers-men-3/colors/black.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 6,
-              "Grey": "../assets/products-gallery/sneakers-men-3/colors/grey.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             }
           ]
         },
@@ -396,16 +477,22 @@
           "size": 39,
           "colors": [
             {
-              "numberOfItems": 5,
-              "Beige": "../assets/products-gallery/sneakers-men-3/colors/beige.jpg"
+              "numberOfItems": 10,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 4,
-              "Black": "../assets/products-gallery/sneakers-men-3/colors/black.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 6,
-              "Grey": "../assets/products-gallery/sneakers-men-3/colors/grey.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             }
           ]
         },
@@ -413,16 +500,22 @@
           "size": 40,
           "colors": [
             {
-              "numberOfItems": 2,
-              "Beige": "../assets/products-gallery/sneakers-men-3/colors/beige.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
               "numberOfItems": 5,
-              "Black": "../assets/products-gallery/sneakers-men-3/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 1,
-              "Grey": "../assets/products-gallery/sneakers-men-3/colors/grey.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             }
           ]
         },
@@ -431,15 +524,21 @@
           "colors": [
             {
               "numberOfItems": 2,
-              "Beige": "../assets/products-gallery/sneakers-men-3/colors/beige.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 3,
-              "Black": "../assets/products-gallery/sneakers-men-3/colors/black.jpg"
+              "numberOfItems": 0,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 1,
-              "Grey": "../assets/products-gallery/sneakers-men-3/colors/grey.jpg"
+              "numberOfItems": 0,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             }
           ]
         },
@@ -447,16 +546,22 @@
           "size": 42,
           "colors": [
             {
-              "numberOfItems": 0,
-              "Beige": "../assets/products-gallery/sneakers-men-3/colors/beige.jpg"
+              "numberOfItems": 1,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 0,
-              "Black": "../assets/products-gallery/sneakers-men-3/colors/black.jpg"
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 0,
-              "Grey": "../assets/products-gallery/sneakers-men-3/colors/grey.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             }
           ]
         },
@@ -464,16 +569,22 @@
           "size": 43,
           "colors": [
             {
-              "numberOfItems": 0,
-              "Beige": "../assets/products-gallery/sneakers-men-3/colors/beige.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 1,
-              "Black": "../assets/products-gallery/sneakers-men-3/colors/black.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 0,
-              "Grey": "../assets/products-gallery/sneakers-men-3/colors/grey.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             }
           ]
         },
@@ -481,16 +592,22 @@
           "size": 44,
           "colors": [
             {
-              "numberOfItems": 3,
-              "Beige": "../assets/products-gallery/sneakers-men-3/colors/beige.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 5,
-              "Black": "../assets/products-gallery/sneakers-men-3/colors/black.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 7,
-              "Grey": "../assets/products-gallery/sneakers-men-3/colors/grey.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-men-3/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             }
           ]
         }
@@ -529,16 +646,22 @@
           "size": 34,
           "colors": [
             {
-              "numverOfItems": 10,
-              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
+              "numberOfItems": 10,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg",
+              "colorName": "grey-1",
+              "colorValue": "grey"
             },
             {
-              "numverOfItems": 10,
-              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
+              "numberOfItems": 10,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg",
+              "colorName": "grey-2",
+              "colorValue": "grey"
             },
             {
-              "numverOfItems": 10,
-              "Black": "../assets/products-gallery/sneakers-women-1/colors/black.jpg"
+              "numberOfItems": 10,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -546,16 +669,22 @@
           "size": 35,
           "colors": [
             {
-              "numverOfItems": 11,
-              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg",
+              "colorName": "grey-1",
+              "colorValue": "grey"
             },
             {
-              "numverOfItems": 5,
-              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg",
+              "colorName": "grey-2",
+              "colorValue": "grey"
             },
             {
-              "numverOfItems": 6,
-              "Black": "../assets/products-gallery/sneakers-women-1/colors/black.jpg"
+              "numberOfItems": 10,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -563,16 +692,22 @@
           "size": 36,
           "colors": [
             {
-              "numverOfItems": 4,
-              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg",
+              "colorName": "grey-1",
+              "colorValue": "grey"
             },
             {
-              "numverOfItems": 8,
-              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg",
+              "colorName": "grey-2",
+              "colorValue": "grey"
             },
             {
-              "numverOfItems": 10,
-              "Black": "../assets/products-gallery/sneakers-women-1/colors/black.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -580,16 +715,22 @@
           "size": 37,
           "colors": [
             {
-              "numverOfItems": 3,
-              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg",
+              "colorName": "grey-1",
+              "colorValue": "grey"
             },
             {
-              "numverOfItems": 0,
-              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg",
+              "colorName": "grey-2",
+              "colorValue": "grey"
             },
             {
-              "numverOfItems": 4,
-              "Black": "../assets/products-gallery/sneakers-women-1/colors/black.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -597,16 +738,22 @@
           "size": 38,
           "colors": [
             {
-              "numverOfItems": 5,
-              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg",
+              "colorName": "grey-1",
+              "colorValue": "grey"
             },
             {
-              "numverOfItems": 1,
-              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg",
+              "colorName": "grey-2",
+              "colorValue": "grey"
             },
             {
-              "numverOfItems": 6,
-              "Black": "../assets/products-gallery/sneakers-women-1/colors/black.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -614,16 +761,22 @@
           "size": 39,
           "colors": [
             {
-              "numverOfItems": 0,
-              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg",
+              "colorName": "grey-1",
+              "colorValue": "grey"
             },
             {
-              "numverOfItems": 0,
-              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
+              "numberOfItems": 1,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg",
+              "colorName": "grey-2",
+              "colorValue": "grey"
             },
             {
-              "numverOfItems": 0,
-              "Black": "../assets/products-gallery/sneakers-women-1/colors/black.jpg"
+              "numberOfItems": 0,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -631,16 +784,22 @@
           "size": 40,
           "colors": [
             {
-              "numverOfItems": 0,
-              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg",
+              "colorName": "grey-1",
+              "colorValue": "grey"
             },
             {
-              "numverOfItems": 1,
-              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg",
+              "colorName": "grey-2",
+              "colorValue": "grey"
             },
             {
-              "numverOfItems": 4,
-              "Black": "../assets/products-gallery/sneakers-women-1/colors/black.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -648,16 +807,22 @@
           "size": 41,
           "colors": [
             {
-              "numverOfItems": 10,
-              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg",
+              "colorName": "grey-1",
+              "colorValue": "grey"
             },
             {
-              "numverOfItems": 5,
-              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg",
+              "colorName": "grey-2",
+              "colorValue": "grey"
             },
             {
-              "numverOfItems": 6,
-              "Black": "../assets/products-gallery/sneakers-women-1/colors/black.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -665,16 +830,22 @@
           "size": 42,
           "colors": [
             {
-              "numverOfItems": 5,
-              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/grey-1.jpg",
+              "colorName": "grey-1",
+              "colorValue": "grey"
             },
             {
-              "numverOfItems": 6,
-              "Grey": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/grey-2.jpg",
+              "colorName": "grey-2",
+              "colorValue": "grey"
             },
             {
-              "numverOfItems": 10,
-              "Black": "../assets/products-gallery/sneakers-women-1/colors/black.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-women-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         }
@@ -713,20 +884,28 @@
           "size": 33,
           "colors": [
             {
-              "numberOfItems": 15,
-              "Beige": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg"
-            },
-            {
               "numberOfItems": 10,
-              "Grey": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 12,
-              "Black": "../assets/products-gallery/sneakers-women-2/colors/black.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             },
             {
-              "numberOfItems": 10,
-              "Pink": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
+            },
+            {
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg",
+              "colorName": "pink",
+              "colorValue": "pink"
             }
           ]
         },
@@ -734,20 +913,28 @@
           "size": 34,
           "colors": [
             {
-              "numberOfItems": 12,
-              "Beige": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 10,
-              "Grey": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             },
             {
-              "numberOfItems": 11,
-              "Black": "../assets/products-gallery/sneakers-women-2/colors/black.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 10,
-              "Pink": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg",
+              "colorName": "pink",
+              "colorValue": "pink"
             }
           ]
         },
@@ -755,20 +942,28 @@
           "size": 35,
           "colors": [
             {
-              "numberOfItems": 10,
-              "Beige": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
               "numberOfItems": 7,
-              "Grey": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg"
-            },
-            {
-              "numberOfItems": 10,
-              "Black": "../assets/products-gallery/sneakers-women-2/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             },
             {
               "numberOfItems": 8,
-              "Pink": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
+            },
+            {
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg",
+              "colorName": "pink",
+              "colorValue": "pink"
             }
           ]
         },
@@ -776,20 +971,28 @@
           "size": 36,
           "colors": [
             {
-              "numberOfItems": 10,
-              "Beige": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 7,
-              "Grey": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             },
             {
               "numberOfItems": 8,
-              "Black": "../assets/products-gallery/sneakers-women-2/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 10,
-              "Pink": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg",
+              "colorName": "pink",
+              "colorValue": "pink"
             }
           ]
         },
@@ -797,20 +1000,28 @@
           "size": 37,
           "colors": [
             {
-              "numberOfItems": 3,
-              "Beige": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg"
-            },
-            {
-              "numberOfItems": 8,
-              "Grey": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg"
-            },
-            {
-              "numberOfItems": 7,
-              "Black": "../assets/products-gallery/sneakers-women-2/colors/black.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
               "numberOfItems": 6,
-              "Pink": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
+            },
+            {
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
+            },
+            {
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg",
+              "colorName": "pink",
+              "colorValue": "pink"
             }
           ]
         },
@@ -818,20 +1029,28 @@
           "size": 38,
           "colors": [
             {
-              "numberOfItems": 9,
-              "Beige": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 2,
-              "Grey": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             },
             {
-              "numberOfItems": 9,
-              "Black": "../assets/products-gallery/sneakers-women-2/colors/black.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 10,
-              "Pink": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg",
+              "colorName": "pink",
+              "colorValue": "pink"
             }
           ]
         },
@@ -839,20 +1058,28 @@
           "size": 39,
           "colors": [
             {
-              "numberOfItems": 3,
-              "Beige": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg"
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 0,
-              "Grey": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             },
             {
               "numberOfItems": 5,
-              "Black": "../assets/products-gallery/sneakers-women-2/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
               "numberOfItems": 1,
-              "Pink": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg",
+              "colorName": "pink",
+              "colorValue": "pink"
             }
           ]
         },
@@ -860,20 +1087,28 @@
           "size": 40,
           "colors": [
             {
+              "numberOfItems": 0,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
+            },
+            {
               "numberOfItems": 2,
-              "Beige": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg"
-            },
-            {
-              "numberOfItems": 3,
-              "Grey": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg"
-            },
-            {
-              "numberOfItems": 6,
-              "Black": "../assets/products-gallery/sneakers-women-2/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             },
             {
               "numberOfItems": 5,
-              "Pink": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
+            },
+            {
+              "numberOfItems": 0,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg",
+              "colorName": "pink",
+              "colorValue": "pink"
             }
           ]
         },
@@ -881,20 +1116,28 @@
           "size": 41,
           "colors": [
             {
-              "numberOfItems": 10,
-              "Beige": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 9,
-              "Grey": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             },
             {
-              "numberOfItems": 7,
-              "Black": "../assets/products-gallery/sneakers-women-2/colors/black.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 8,
-              "Pink": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg"
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg",
+              "colorName": "pink",
+              "colorValue": "pink"
             }
           ]
         },
@@ -902,20 +1145,28 @@
           "size": 42,
           "colors": [
             {
-              "numberOfItems": 8,
-              "Beige": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg"
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
               "numberOfItems": 4,
-              "Grey": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             },
             {
-              "numberOfItems": 10,
-              "Black": "../assets/products-gallery/sneakers-women-2/colors/black.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 6,
-              "Pink": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-women-2/colors/pink.jpg",
+              "colorName": "pink",
+              "colorValue": "pink"
             }
           ]
         }
@@ -957,11 +1208,15 @@
           "colors": [
             {
               "numberOfItems": 10,
-              "White": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg",
+              "colorName": "white-1",
+              "colorValue": "white"
             },
             {
               "numberOfItems": 10,
-              "White": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg",
+              "colorName": "white-2",
+              "colorValue": "white"
             }
           ]
         },
@@ -969,12 +1224,16 @@
           "size": 35,
           "colors": [
             {
-              "numberOfItems": 9,
-              "White": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg",
+              "colorName": "white-1",
+              "colorValue": "white"
             },
             {
               "numberOfItems": 7,
-              "White": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg",
+              "colorName": "white-2",
+              "colorValue": "white"
             }
           ]
         },
@@ -982,12 +1241,16 @@
           "size": 36,
           "colors": [
             {
-              "numberOfItems": 8,
-              "White": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg",
+              "colorName": "white-1",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 4,
-              "White": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg",
+              "colorName": "white-2",
+              "colorValue": "white"
             }
           ]
         },
@@ -995,12 +1258,16 @@
           "size": 37,
           "colors": [
             {
-              "numberOfItems": 5,
-              "White": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
+              "numberOfItems": 10,
+              "colorImage": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg",
+              "colorName": "white-1",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 3,
-              "White": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg",
+              "colorName": "white-2",
+              "colorValue": "white"
             }
           ]
         },
@@ -1008,12 +1275,16 @@
           "size": 38,
           "colors": [
             {
-              "numberOfItems": 0,
-              "White": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg",
+              "colorName": "white-1",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 1,
-              "White": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg",
+              "colorName": "white-2",
+              "colorValue": "white"
             }
           ]
         },
@@ -1021,12 +1292,16 @@
           "size": 39,
           "colors": [
             {
-              "numberOfItems": 1,
-              "White": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg",
+              "colorName": "white-1",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 0,
-              "White": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg",
+              "colorName": "white-2",
+              "colorValue": "white"
             }
           ]
         },
@@ -1034,12 +1309,16 @@
           "size": 40,
           "colors": [
             {
-              "numberOfItems": 1,
-              "White": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg",
+              "colorName": "white-1",
+              "colorValue": "white"
             },
             {
               "numberOfItems": 2,
-              "White": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg",
+              "colorName": "white-2",
+              "colorValue": "white"
             }
           ]
         },
@@ -1047,12 +1326,16 @@
           "size": 41,
           "colors": [
             {
-              "numberOfItems": 0,
-              "White": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg",
+              "colorName": "white-1",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 0,
-              "White": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg",
+              "colorName": "white-2",
+              "colorValue": "white"
             }
           ]
         },
@@ -1060,33 +1343,24 @@
           "size": 42,
           "colors": [
             {
-              "numberOfItems": 0,
-              "White": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg",
+              "colorName": "white-1",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 0,
-              "White": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
-            }
-          ]
-        },
-        {
-          "size": 43,
-          "colors": [
-            {
-              "numberOfItems": 1,
-              "White": "../assets/products-gallery/sneakers-women-3/colors/white-1.jpg"
-            },
-            {
-              "numberOfItems": 0,
-              "White": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-women-3/colors/white-2.jpg",
+              "colorName": "white-2",
+              "colorValue": "white"
             }
           ]
         }
       ],
       "price": {
-        "current": 39,
-        "discount": true,
-        "old": 69
+        "current": 69,
+        "discount": false,
+        "old": ""
       },
       "gender": "female",
       "specs": {
@@ -1118,19 +1392,27 @@
           "colors": [
             {
               "numberOfItems": 10,
-              "Red": "../assets/products-gallery/sneakers-women-4/colors/red.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             },
             {
-              "numberOfItems": 12,
-              "Blue": "../assets/products-gallery/sneakers-women-4/colors/blue.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
-              "numberOfItems": 14,
-              "White": "../assets/products-gallery/sneakers-women-4/colors/white.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 15,
-              "Black": "../assets/products-gallery/sneakers-women-4/colors/black.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -1138,20 +1420,28 @@
           "size": 35,
           "colors": [
             {
-              "numberOfItems": 15,
-              "Red": "../assets/products-gallery/sneakers-women-4/colors/red.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             },
             {
-              "numberOfItems": 13,
-              "Blue": "../assets/products-gallery/sneakers-women-4/colors/blue.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
-              "numberOfItems": 12,
-              "White": "../assets/products-gallery/sneakers-women-4/colors/white.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             },
             {
               "numberOfItems": 10,
-              "Black": "../assets/products-gallery/sneakers-women-4/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -1159,20 +1449,28 @@
           "size": 36,
           "colors": [
             {
-              "numberOfItems": 11,
-              "Red": "../assets/products-gallery/sneakers-women-4/colors/red.jpg"
-            },
-            {
-              "numberOfItems": 9,
-              "Blue": "../assets/products-gallery/sneakers-women-4/colors/blue.jpg"
-            },
-            {
-              "numberOfItems": 10,
-              "White": "../assets/products-gallery/sneakers-women-4/colors/white.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             },
             {
               "numberOfItems": 8,
-              "Black": "../assets/products-gallery/sneakers-women-4/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
+            },
+            {
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
+            },
+            {
+              "numberOfItems": 10,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -1180,20 +1478,28 @@
           "size": 37,
           "colors": [
             {
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
+            },
+            {
               "numberOfItems": 8,
-              "Red": "../assets/products-gallery/sneakers-women-4/colors/red.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
-              "numberOfItems": 6,
-              "Blue": "../assets/products-gallery/sneakers-women-4/colors/blue.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 10,
-              "White": "../assets/products-gallery/sneakers-women-4/colors/white.jpg"
-            },
-            {
-              "numberOfItems": 15,
-              "Black": "../assets/products-gallery/sneakers-women-4/colors/black.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -1201,20 +1507,28 @@
           "size": 38,
           "colors": [
             {
-              "numberOfItems": 12,
-              "Red": "../assets/products-gallery/sneakers-women-4/colors/red.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             },
             {
-              "numberOfItems": 10,
-              "Blue": "../assets/products-gallery/sneakers-women-4/colors/blue.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
-              "numberOfItems": 8,
-              "White": "../assets/products-gallery/sneakers-women-4/colors/white.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 9,
-              "Black": "../assets/products-gallery/sneakers-women-4/colors/black.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -1222,20 +1536,28 @@
           "size": 39,
           "colors": [
             {
-              "numberOfItems": 7,
-              "Red": "../assets/products-gallery/sneakers-women-4/colors/red.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             },
             {
-              "numberOfItems": 8,
-              "Blue": "../assets/products-gallery/sneakers-women-4/colors/blue.jpg"
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
-              "numberOfItems": 10,
-              "White": "../assets/products-gallery/sneakers-women-4/colors/white.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 9,
-              "Black": "../assets/products-gallery/sneakers-women-4/colors/black.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -1243,20 +1565,28 @@
           "size": 40,
           "colors": [
             {
-              "numberOfItems": 7,
-              "Red": "../assets/products-gallery/sneakers-women-4/colors/red.jpg"
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             },
             {
-              "numberOfItems": 10,
-              "Blue": "../assets/products-gallery/sneakers-women-4/colors/blue.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
-              "numberOfItems": 11,
-              "White": "../assets/products-gallery/sneakers-women-4/colors/white.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 9,
-              "Black": "../assets/products-gallery/sneakers-women-4/colors/black.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -1264,20 +1594,28 @@
           "size": 41,
           "colors": [
             {
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
+            },
+            {
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
+            },
+            {
               "numberOfItems": 8,
-              "Red": "../assets/products-gallery/sneakers-women-4/colors/red.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 7,
-              "Blue": "../assets/products-gallery/sneakers-women-4/colors/blue.jpg"
-            },
-            {
-              "numberOfItems": 9,
-              "White": "../assets/products-gallery/sneakers-women-4/colors/white.jpg"
-            },
-            {
-              "numberOfItems": 12,
-              "Black": "../assets/products-gallery/sneakers-women-4/colors/black.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -1285,41 +1623,28 @@
           "size": 42,
           "colors": [
             {
-              "numberOfItems": 10,
-              "Red": "../assets/products-gallery/sneakers-women-4/colors/red.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             },
             {
-              "numberOfItems": 8,
-              "Blue": "../assets/products-gallery/sneakers-women-4/colors/blue.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
-              "numberOfItems": 10,
-              "White": "../assets/products-gallery/sneakers-women-4/colors/white.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 13,
-              "Black": "../assets/products-gallery/sneakers-women-4/colors/black.jpg"
-            }
-          ]
-        },
-        {
-          "size": 43,
-          "colors": [
-            {
-              "numberOfItems": 10,
-              "Red": "../assets/products-gallery/sneakers-women-4/colors/red.jpg"
-            },
-            {
-              "numberOfItems": 15,
-              "Blue": "../assets/products-gallery/sneakers-women-4/colors/blue.jpg"
-            },
-            {
-              "numberOfItems": 13,
-              "White": "../assets/products-gallery/sneakers-women-4/colors/white.jpg"
-            },
-            {
-              "numberOfItems": 9,
-              "Black": "../assets/products-gallery/sneakers-women-4/colors/black.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-women-4/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         }
@@ -1356,28 +1681,19 @@
       "description": "New Style Thick Sole Lift Casual Sports Shoes With Comfortable Bottom And White Color Suitable For Short Stature Women",
       "stock": [
         {
-          "size": 34,
-          "colors": [
-            {
-              "numberOfItems": 10,
-              "White": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
-            },
-            {
-              "numberOfItems": 8,
-              "White": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
-            }
-          ]
-        },
-        {
           "size": 35,
           "colors": [
             {
               "numberOfItems": 10,
-              "White": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg",
+              "colorName": "white-1",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 10,
-              "White": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg",
+              "colorName": "white-2",
+              "colorValue": "white"
             }
           ]
         },
@@ -1385,12 +1701,16 @@
           "size": 36,
           "colors": [
             {
-              "numberOfItems": 9,
-              "White": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg",
+              "colorName": "white-1",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 10,
-              "White": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg",
+              "colorName": "white-2",
+              "colorValue": "white"
             }
           ]
         },
@@ -1398,12 +1718,16 @@
           "size": 37,
           "colors": [
             {
-              "numberOfItems": 11,
-              "White": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg",
+              "colorName": "white-1",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 10,
-              "White": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg",
+              "colorName": "white-2",
+              "colorValue": "white"
             }
           ]
         },
@@ -1411,12 +1735,16 @@
           "size": 38,
           "colors": [
             {
-              "numberOfItems": 10,
-              "White": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg",
+              "colorName": "white-1",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 7,
-              "White": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
+              "numberOfItems": 1,
+              "colorImage": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg",
+              "colorName": "white-2",
+              "colorValue": "white"
             }
           ]
         },
@@ -1424,12 +1752,16 @@
           "size": 39,
           "colors": [
             {
-              "numberOfItems": 9,
-              "White": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
+              "numberOfItems": 0,
+              "colorImage": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg",
+              "colorName": "white-1",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 6,
-              "White": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
+              "numberOfItems": 1,
+              "colorImage": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg",
+              "colorName": "white-2",
+              "colorValue": "white"
             }
           ]
         },
@@ -1437,12 +1769,16 @@
           "size": 40,
           "colors": [
             {
-              "numberOfItems": 5,
-              "White": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg",
+              "colorName": "white-1",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 2,
-              "White": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
+              "numberOfItems": 0,
+              "colorImage": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg",
+              "colorName": "white-2",
+              "colorValue": "white"
             }
           ]
         },
@@ -1450,12 +1786,16 @@
           "size": 41,
           "colors": [
             {
-              "numberOfItems": 4,
-              "White": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg",
+              "colorName": "white-1",
+              "colorValue": "white"
             },
             {
               "numberOfItems": 3,
-              "White": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg",
+              "colorName": "white-2",
+              "colorValue": "white"
             }
           ]
         },
@@ -1463,33 +1803,24 @@
           "size": 42,
           "colors": [
             {
-              "numberOfItems": 8,
-              "White": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg",
+              "colorName": "white-1",
+              "colorValue": "white"
             },
-            {
-              "numberOfItems": 7,
-              "White": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
-            }
-          ]
-        },
-        {
-          "size": 43,
-          "colors": [
             {
               "numberOfItems": 5,
-              "White": "../assets/products-gallery/sneakers-women-5/colors/white-1.jpg"
-            },
-            {
-              "numberOfItems": 10,
-              "White": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-women-5/colors/white-2.jpg",
+              "colorName": "white-2",
+              "colorValue": "white"
             }
           ]
         }
       ],
       "price": {
-        "current": 49,
-        "discount": false,
-        "old": ""
+        "current": 39,
+        "discount": true,
+        "old": 55
       },
       "gender": "female",
       "specs": {
@@ -1522,11 +1853,15 @@
           "colors": [
             {
               "numberOfItems": 10,
-              "Blue": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
               "numberOfItems": 8,
-              "Green": "../assets/products-gallery/sneakers-men-4/colors/green.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-4/colors/green.jpg",
+              "colorName": "green",
+              "colorValue": "green"
             }
           ]
         },
@@ -1534,12 +1869,16 @@
           "size": 36,
           "colors": [
             {
-              "numberOfItems": 7,
-              "Blue": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
-              "numberOfItems": 9,
-              "Green": "../assets/products-gallery/sneakers-men-4/colors/green.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-men-4/colors/green.jpg",
+              "colorName": "green",
+              "colorValue": "green"
             }
           ]
         },
@@ -1547,12 +1886,16 @@
           "size": 37,
           "colors": [
             {
-              "numberOfItems": 6,
-              "Blue": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
-              "numberOfItems": 4,
-              "Green": "../assets/products-gallery/sneakers-men-4/colors/green.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-men-4/colors/green.jpg",
+              "colorName": "green",
+              "colorValue": "green"
             }
           ]
         },
@@ -1560,12 +1903,16 @@
           "size": 38,
           "colors": [
             {
-              "numberOfItems": 3,
-              "Blue": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
-              "numberOfItems": 1,
-              "Green": "../assets/products-gallery/sneakers-men-4/colors/green.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-men-4/colors/green.jpg",
+              "colorName": "green",
+              "colorValue": "green"
             }
           ]
         },
@@ -1573,12 +1920,16 @@
           "size": 39,
           "colors": [
             {
-              "numberOfItems": 1,
-              "Blue": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
-              "numberOfItems": 0,
-              "Green": "../assets/products-gallery/sneakers-men-4/colors/green.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-men-4/colors/green.jpg",
+              "colorName": "green",
+              "colorValue": "green"
             }
           ]
         },
@@ -1586,12 +1937,16 @@
           "size": 40,
           "colors": [
             {
-              "numberOfItems": 0,
-              "Blue": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
-              "numberOfItems": 1,
-              "Green": "../assets/products-gallery/sneakers-men-4/colors/green.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-men-4/colors/green.jpg",
+              "colorName": "green",
+              "colorValue": "green"
             }
           ]
         },
@@ -1599,12 +1954,16 @@
           "size": 41,
           "colors": [
             {
-              "numberOfItems": 4,
-              "Blue": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
               "numberOfItems": 1,
-              "Green": "../assets/products-gallery/sneakers-men-4/colors/green.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-4/colors/green.jpg",
+              "colorName": "green",
+              "colorValue": "green"
             }
           ]
         },
@@ -1613,11 +1972,15 @@
           "colors": [
             {
               "numberOfItems": 0,
-              "Blue": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
-              "numberOfItems": 0,
-              "Green": "../assets/products-gallery/sneakers-men-4/colors/green.jpg"
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/sneakers-men-4/colors/green.jpg",
+              "colorName": "green",
+              "colorValue": "green"
             }
           ]
         },
@@ -1625,12 +1988,16 @@
           "size": 43,
           "colors": [
             {
-              "numberOfItems": 0,
-              "Blue": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
-              "numberOfItems": 1,
-              "Green": "../assets/products-gallery/sneakers-men-4/colors/green.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-men-4/colors/green.jpg",
+              "colorName": "green",
+              "colorValue": "green"
             }
           ]
         },
@@ -1638,25 +2005,16 @@
           "size": 44,
           "colors": [
             {
-              "numberOfItems": 4,
-              "Blue": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg"
-            },
-            {
-              "numberOfItems": 3,
-              "Green": "../assets/products-gallery/sneakers-men-4/colors/green.jpg"
-            }
-          ]
-        },
-        {
-          "size": 45,
-          "colors": [
-            {
-              "numberOfItems": 4,
-              "Blue": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-men-4/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
             {
               "numberOfItems": 5,
-              "Green": "../assets/products-gallery/sneakers-men-4/colors/green.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-4/colors/green.jpg",
+              "colorName": "green",
+              "colorValue": "green"
             }
           ]
         }
@@ -1699,15 +2057,21 @@
           "colors": [
             {
               "numberOfItems": 10,
-              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg",
+              "colorName": "grey-1",
+              "colorValue": "grey"
             },
             {
               "numberOfItems": 8,
-              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
               "numberOfItems": 7,
-              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg",
+              "colorName": "grey-2",
+              "colorValue": "grey"
             }
           ]
         },
@@ -1715,16 +2079,22 @@
           "size": 37,
           "colors": [
             {
-              "numberOfItems": 7,
-              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg",
+              "colorName": "grey-1",
+              "colorValue": "grey"
             },
             {
               "numberOfItems": 8,
-              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 10,
-              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg",
+              "colorName": "grey-2",
+              "colorValue": "grey"
             }
           ]
         },
@@ -1732,16 +2102,22 @@
           "size": 38,
           "colors": [
             {
-              "numberOfItems": 6,
-              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg",
+              "colorName": "grey-1",
+              "colorValue": "grey"
             },
             {
               "numberOfItems": 8,
-              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
               "numberOfItems": 7,
-              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg",
+              "colorName": "grey-2",
+              "colorValue": "grey"
             }
           ]
         },
@@ -1749,16 +2125,22 @@
           "size": 39,
           "colors": [
             {
-              "numberOfItems": 6,
-              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg",
+              "colorName": "grey-1",
+              "colorValue": "grey"
             },
             {
-              "numberOfItems": 4,
-              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 3,
-              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg",
+              "colorName": "grey-2",
+              "colorValue": "grey"
             }
           ]
         },
@@ -1767,15 +2149,21 @@
           "colors": [
             {
               "numberOfItems": 6,
-              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg",
+              "colorName": "grey-1",
+              "colorValue": "grey"
             },
             {
-              "numberOfItems": 4,
-              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 3,
-              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg",
+              "colorName": "grey-2",
+              "colorValue": "grey"
             }
           ]
         },
@@ -1783,16 +2171,22 @@
           "size": 41,
           "colors": [
             {
-              "numberOfItems": 3,
-              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg",
+              "colorName": "grey-1",
+              "colorValue": "grey"
             },
             {
-              "numberOfItems": 2,
-              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 1,
-              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg",
+              "colorName": "grey-2",
+              "colorValue": "grey"
             }
           ]
         },
@@ -1800,16 +2194,22 @@
           "size": 42,
           "colors": [
             {
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg",
+              "colorName": "grey-1",
+              "colorValue": "grey"
+            },
+            {
               "numberOfItems": 6,
-              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 4,
-              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
-            },
-            {
-              "numberOfItems": 1,
-              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg",
+              "colorName": "grey-2",
+              "colorValue": "grey"
             }
           ]
         },
@@ -1817,16 +2217,22 @@
           "size": 43,
           "colors": [
             {
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg",
+              "colorName": "grey-1",
+              "colorValue": "grey"
+            },
+            {
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
+            },
+            {
               "numberOfItems": 5,
-              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
-            },
-            {
-              "numberOfItems": 6,
-              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
-            },
-            {
-              "numberOfItems": 7,
-              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg",
+              "colorName": "grey-2",
+              "colorValue": "grey"
             }
           ]
         },
@@ -1834,24 +2240,30 @@
           "size": 44,
           "colors": [
             {
-              "numberOfItems": 10,
-              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/grey-1.jpg",
+              "colorName": "grey-1",
+              "colorValue": "grey"
             },
             {
-              "numberOfItems": 8,
-              "Black": "../assets/products-gallery/sneakers-men-5/colors/black.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 10,
-              "Grey": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/sneakers-men-5/colors/grey-2.jpg",
+              "colorName": "grey-2",
+              "colorValue": "grey"
             }
           ]
         }
       ],
       "price": {
-        "current": 45,
-        "discount": true,
-        "old": 69
+        "current": 69,
+        "discount": false,
+        "old": ""
       },
       "gender": "male",
       "specs": {
@@ -1886,11 +2298,15 @@
           "colors": [
             {
               "numberOfItems": 9,
-              "Beige": "../assets/products-gallery/boots-men-1/colors/beige.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-1/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
               "numberOfItems": 10,
-              "Grey": "../assets/products-gallery/boots-men-1/colors/grey.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-1/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             }
           ]
         },
@@ -1899,11 +2315,15 @@
           "colors": [
             {
               "numberOfItems": 9,
-              "Beige": "../assets/products-gallery/boots-men-1/colors/beige.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-1/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
               "numberOfItems": 8,
-              "Grey": "../assets/products-gallery/boots-men-1/colors/grey.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-1/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             }
           ]
         },
@@ -1911,12 +2331,16 @@
           "size": 39,
           "colors": [
             {
-              "numberOfItems": 9,
-              "Beige": "../assets/products-gallery/boots-men-1/colors/beige.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/boots-men-1/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
               "numberOfItems": 7,
-              "Grey": "../assets/products-gallery/boots-men-1/colors/grey.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-1/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             }
           ]
         },
@@ -1925,11 +2349,15 @@
           "colors": [
             {
               "numberOfItems": 8,
-              "Beige": "../assets/products-gallery/boots-men-1/colors/beige.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-1/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
               "numberOfItems": 6,
-              "Grey": "../assets/products-gallery/boots-men-1/colors/grey.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-1/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             }
           ]
         },
@@ -1937,12 +2365,16 @@
           "size": 41,
           "colors": [
             {
-              "numberOfItems": 5,
-              "Beige": "../assets/products-gallery/boots-men-1/colors/beige.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/boots-men-1/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 4,
-              "Grey": "../assets/products-gallery/boots-men-1/colors/grey.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/boots-men-1/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             }
           ]
         },
@@ -1950,12 +2382,16 @@
           "size": 42,
           "colors": [
             {
-              "numberOfItems": 4,
-              "Beige": "../assets/products-gallery/boots-men-1/colors/beige.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/boots-men-1/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
               "numberOfItems": 3,
-              "Grey": "../assets/products-gallery/boots-men-1/colors/grey.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-1/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             }
           ]
         },
@@ -1963,12 +2399,16 @@
           "size": 43,
           "colors": [
             {
-              "numberOfItems": 5,
-              "Beige": "../assets/products-gallery/boots-men-1/colors/beige.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/boots-men-1/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 6,
-              "Grey": "../assets/products-gallery/boots-men-1/colors/grey.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/boots-men-1/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             }
           ]
         },
@@ -1976,12 +2416,16 @@
           "size": 44,
           "colors": [
             {
-              "numberOfItems": 9,
-              "Beige": "../assets/products-gallery/boots-men-1/colors/beige.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/boots-men-1/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 10,
-              "Grey": "../assets/products-gallery/boots-men-1/colors/grey.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/boots-men-1/colors/grey.jpg",
+              "colorName": "grey",
+              "colorValue": "grey"
             }
           ]
         }
@@ -2023,12 +2467,16 @@
           "size": 37,
           "colors": [
             {
-              "numberOfItems": 11,
-              "Black": "../assets/products-gallery/boots-men-2/colors/black.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/boots-men-2/colors/brown.jpg",
+              "colorName": "brown",
+              "colorValue": "brown"
             },
             {
-              "numberOfItems": 12,
-              "Brown": "../assets/products-gallery/boots-men-2/colors/brown.jpg"
+              "numberOfItems": 10,
+              "colorImage": "../assets/products-gallery/boots-men-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2036,12 +2484,16 @@
           "size": 38,
           "colors": [
             {
-              "numberOfItems": 11,
-              "Black": "../assets/products-gallery/boots-men-2/colors/black.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/boots-men-2/colors/brown.jpg",
+              "colorName": "brown",
+              "colorValue": "brown"
             },
             {
-              "numberOfItems": 10,
-              "Brown": "../assets/products-gallery/boots-men-2/colors/brown.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/boots-men-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2049,12 +2501,16 @@
           "size": 39,
           "colors": [
             {
-              "numberOfItems": 8,
-              "Black": "../assets/products-gallery/boots-men-2/colors/black.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/boots-men-2/colors/brown.jpg",
+              "colorName": "brown",
+              "colorValue": "brown"
             },
             {
-              "numberOfItems": 7,
-              "Brown": "../assets/products-gallery/boots-men-2/colors/brown.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/boots-men-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2062,12 +2518,16 @@
           "size": 40,
           "colors": [
             {
-              "numberOfItems": 6,
-              "Black": "../assets/products-gallery/boots-men-2/colors/black.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/boots-men-2/colors/brown.jpg",
+              "colorName": "brown",
+              "colorValue": "brown"
             },
             {
-              "numberOfItems": 5,
-              "Brown": "../assets/products-gallery/boots-men-2/colors/brown.jpg"
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/boots-men-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2075,12 +2535,16 @@
           "size": 41,
           "colors": [
             {
-              "numberOfItems": 4,
-              "Black": "../assets/products-gallery/boots-men-2/colors/black.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/boots-men-2/colors/brown.jpg",
+              "colorName": "brown",
+              "colorValue": "brown"
             },
             {
-              "numberOfItems": 4,
-              "Brown": "../assets/products-gallery/boots-men-2/colors/brown.jpg"
+              "numberOfItems": 1,
+              "colorImage": "../assets/products-gallery/boots-men-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2088,12 +2552,16 @@
           "size": 42,
           "colors": [
             {
-              "numberOfItems": 3,
-              "Black": "../assets/products-gallery/boots-men-2/colors/black.jpg"
+              "numberOfItems": 0,
+              "colorImage": "../assets/products-gallery/boots-men-2/colors/brown.jpg",
+              "colorName": "brown",
+              "colorValue": "brown"
             },
             {
               "numberOfItems": 1,
-              "Brown": "../assets/products-gallery/boots-men-2/colors/brown.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2101,12 +2569,16 @@
           "size": 43,
           "colors": [
             {
-              "numberOfItems": 3,
-              "Black": "../assets/products-gallery/boots-men-2/colors/black.jpg"
+              "numberOfItems": 0,
+              "colorImage": "../assets/products-gallery/boots-men-2/colors/brown.jpg",
+              "colorName": "brown",
+              "colorValue": "brown"
             },
             {
-              "numberOfItems": 0,
-              "Brown": "../assets/products-gallery/boots-men-2/colors/brown.jpg"
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/boots-men-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2114,33 +2586,24 @@
           "size": 44,
           "colors": [
             {
-              "numberOfItems": 0,
-              "Black": "../assets/products-gallery/boots-men-2/colors/black.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/boots-men-2/colors/brown.jpg",
+              "colorName": "brown",
+              "colorValue": "brown"
             },
             {
-              "numberOfItems": 0,
-              "Brown": "../assets/products-gallery/boots-men-2/colors/brown.jpg"
-            }
-          ]
-        },
-        {
-          "size": 45,
-          "colors": [
-            {
-              "numberOfItems": 5,
-              "Black": "../assets/products-gallery/boots-men-2/colors/black.jpg"
-            },
-            {
-              "numberOfItems": 2,
-              "Brown": "../assets/products-gallery/boots-men-2/colors/brown.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/boots-men-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         }
       ],
       "price": {
-        "current": 69,
+        "current": 79,
         "discount": true,
-        "old": 85
+        "old": 95
       },
       "gender": "male",
       "specs": {
@@ -2172,15 +2635,21 @@
           "colors": [
             {
               "numberOfItems": 10,
-              "beige": "../assets/products-gallery/boots-men-3/colors/beige.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
               "numberOfItems": 10,
-              "black": "../assets/products-gallery/boots-men-3/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 10,
-              "green": "../assets/products-gallery/boots-men-3/colors/green.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/green.jpg",
+              "colorName": "green",
+              "colorValue": "green"
             }
           ]
         },
@@ -2188,16 +2657,22 @@
           "size": 38,
           "colors": [
             {
-              "numberOfItems": 7,
-              "beige": "../assets/products-gallery/boots-men-3/colors/beige.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
               "numberOfItems": 9,
-              "black": "../assets/products-gallery/boots-men-3/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
               "numberOfItems": 10,
-              "green": "../assets/products-gallery/boots-men-3/colors/green.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/green.jpg",
+              "colorName": "green",
+              "colorValue": "green"
             }
           ]
         },
@@ -2205,16 +2680,22 @@
           "size": 39,
           "colors": [
             {
-              "numberOfItems": 8,
-              "beige": "../assets/products-gallery/boots-men-3/colors/beige.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 11,
-              "black": "../assets/products-gallery/boots-men-3/colors/black.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
               "numberOfItems": 10,
-              "green": "../assets/products-gallery/boots-men-3/colors/green.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/green.jpg",
+              "colorName": "green",
+              "colorValue": "green"
             }
           ]
         },
@@ -2222,16 +2703,22 @@
           "size": 40,
           "colors": [
             {
-              "numberOfItems": 10,
-              "beige": "../assets/products-gallery/boots-men-3/colors/beige.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 13,
-              "black": "../assets/products-gallery/boots-men-3/colors/black.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 10,
-              "green": "../assets/products-gallery/boots-men-3/colors/green.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/green.jpg",
+              "colorName": "green",
+              "colorValue": "green"
             }
           ]
         },
@@ -2239,16 +2726,22 @@
           "size": 41,
           "colors": [
             {
-              "numberOfItems": 7,
-              "beige": "../assets/products-gallery/boots-men-3/colors/beige.jpg"
-            },
-            {
               "numberOfItems": 8,
-              "black": "../assets/products-gallery/boots-men-3/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 10,
-              "green": "../assets/products-gallery/boots-men-3/colors/green.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
+            },
+            {
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/green.jpg",
+              "colorName": "green",
+              "colorValue": "green"
             }
           ]
         },
@@ -2256,16 +2749,22 @@
           "size": 42,
           "colors": [
             {
-              "numberOfItems": 10,
-              "beige": "../assets/products-gallery/boots-men-3/colors/beige.jpg"
-            },
-            {
               "numberOfItems": 6,
-              "black": "../assets/products-gallery/boots-men-3/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 10,
-              "green": "../assets/products-gallery/boots-men-3/colors/green.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
+            },
+            {
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/green.jpg",
+              "colorName": "green",
+              "colorValue": "green"
             }
           ]
         },
@@ -2273,16 +2772,22 @@
           "size": 43,
           "colors": [
             {
-              "numberOfItems": 4,
-              "beige": "../assets/products-gallery/boots-men-3/colors/beige.jpg"
-            },
-            {
               "numberOfItems": 6,
-              "black": "../assets/products-gallery/boots-men-3/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 5,
-              "green": "../assets/products-gallery/boots-men-3/colors/green.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
+            },
+            {
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/green.jpg",
+              "colorName": "green",
+              "colorValue": "green"
             }
           ]
         },
@@ -2290,16 +2795,22 @@
           "size": 44,
           "colors": [
             {
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
+            },
+            {
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
+            },
+            {
               "numberOfItems": 7,
-              "beige": "../assets/products-gallery/boots-men-3/colors/beige.jpg"
-            },
-            {
-              "numberOfItems": 9,
-              "black": "../assets/products-gallery/boots-men-3/colors/black.jpg"
-            },
-            {
-              "numberOfItems": 12,
-              "green": "../assets/products-gallery/boots-men-3/colors/green.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/green.jpg",
+              "colorName": "green",
+              "colorValue": "green"
             }
           ]
         },
@@ -2308,15 +2819,21 @@
           "colors": [
             {
               "numberOfItems": 10,
-              "beige": "../assets/products-gallery/boots-men-3/colors/beige.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 13,
-              "black": "../assets/products-gallery/boots-men-3/colors/black.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 8,
-              "green": "../assets/products-gallery/boots-men-3/colors/green.jpg"
+              "numberOfItems": 10,
+              "colorImage": "../assets/products-gallery/boots-men-3/colors/green.jpg",
+              "colorName": "green",
+              "colorValue": "green"
             }
           ]
         }
@@ -2361,7 +2878,9 @@
           "colors": [
             {
               "numberOfItems": 9,
-              "black": "../assets/products-gallery/boots-women-1/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/boots-women-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2369,8 +2888,10 @@
           "size": 37,
           "colors": [
             {
-              "numberOfItems": 12,
-              "black": "../assets/products-gallery/boots-women-1/colors/black.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/boots-women-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2378,8 +2899,10 @@
           "size": 38,
           "colors": [
             {
-              "numberOfItems": 9,
-              "black": "../assets/products-gallery/boots-women-1/colors/black.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/boots-women-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2387,8 +2910,10 @@
           "size": 39,
           "colors": [
             {
-              "numberOfItems": 6,
-              "black": "../assets/products-gallery/boots-women-1/colors/black.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/boots-women-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2397,7 +2922,9 @@
           "colors": [
             {
               "numberOfItems": 4,
-              "black": "../assets/products-gallery/boots-women-1/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/boots-women-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2405,8 +2932,10 @@
           "size": 41,
           "colors": [
             {
-              "numberOfItems": 7,
-              "black": "../assets/products-gallery/boots-women-1/colors/black.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/boots-women-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2414,8 +2943,21 @@
           "size": 42,
           "colors": [
             {
-              "numberOfItems": 6,
-              "black": "../assets/products-gallery/boots-women-1/colors/black.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/boots-women-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
+            }
+          ]
+        },
+        {
+          "size": 43,
+          "colors": [
+            {
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/boots-women-1/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         }
@@ -2457,20 +2999,28 @@
           "colors": [
             {
               "numberOfItems": 10,
-              "white": "../assets/products-gallery/boots-women-2/colors/white.jpg"
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             },
             {
               "numberOfItems": 9,
-              "black": "../assets/products-gallery/boots-women-2/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
               "numberOfItems": 8,
-              "blue": "../assets/products-gallery/boots-women-2/colors/blue.jpg"
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
 
             {
               "numberOfItems": 10,
-              "red": "../assets/products-gallery/boots-women-2/colors/red.jpg"
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             }
           ]
         },
@@ -2479,20 +3029,28 @@
           "colors": [
             {
               "numberOfItems": 8,
-              "white": "../assets/products-gallery/boots-women-2/colors/white.jpg"
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 4,
-              "black": "../assets/products-gallery/boots-women-2/colors/black.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 6,
-              "blue": "../assets/products-gallery/boots-women-2/colors/blue.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
 
             {
-              "numberOfItems": 3,
-              "red": "../assets/products-gallery/boots-women-2/colors/red.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             }
           ]
         },
@@ -2501,20 +3059,28 @@
           "colors": [
             {
               "numberOfItems": 6,
-              "white": "../assets/products-gallery/boots-women-2/colors/white.jpg"
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 4,
-              "black": "../assets/products-gallery/boots-women-2/colors/black.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 3,
-              "blue": "../assets/products-gallery/boots-women-2/colors/blue.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
 
             {
-              "numberOfItems": 1,
-              "red": "../assets/products-gallery/boots-women-2/colors/red.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             }
           ]
         },
@@ -2522,21 +3088,29 @@
           "size": 39,
           "colors": [
             {
-              "numberOfItems": 2,
-              "white": "../assets/products-gallery/boots-women-2/colors/white.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 0,
-              "black": "../assets/products-gallery/boots-women-2/colors/black.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 0,
-              "blue": "../assets/products-gallery/boots-women-2/colors/blue.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
 
             {
-              "numberOfItems": 1,
-              "red": "../assets/products-gallery/boots-women-2/colors/red.jpg"
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             }
           ]
         },
@@ -2544,21 +3118,29 @@
           "size": 40,
           "colors": [
             {
-              "numberOfItems": 3,
-              "white": "../assets/products-gallery/boots-women-2/colors/white.jpg"
+              "numberOfItems": 0,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 4,
-              "black": "../assets/products-gallery/boots-women-2/colors/black.jpg"
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 6,
-              "blue": "../assets/products-gallery/boots-women-2/colors/blue.jpg"
+              "numberOfItems": 1,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
 
             {
               "numberOfItems": 0,
-              "red": "../assets/products-gallery/boots-women-2/colors/red.jpg"
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             }
           ]
         },
@@ -2566,21 +3148,29 @@
           "size": 41,
           "colors": [
             {
-              "numberOfItems": 5,
-              "white": "../assets/products-gallery/boots-women-2/colors/white.jpg"
+              "numberOfItems": 1,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 4,
-              "black": "../assets/products-gallery/boots-women-2/colors/black.jpg"
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 4,
-              "blue": "../assets/products-gallery/boots-women-2/colors/blue.jpg"
+              "numberOfItems": 0,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
 
             {
-              "numberOfItems": 3,
-              "red": "../assets/products-gallery/boots-women-2/colors/red.jpg"
+              "numberOfItems": 0,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             }
           ]
         },
@@ -2588,21 +3178,59 @@
           "size": 42,
           "colors": [
             {
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
+            },
+            {
               "numberOfItems": 3,
-              "white": "../assets/products-gallery/boots-women-2/colors/white.jpg"
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 8,
-              "black": "../assets/products-gallery/boots-women-2/colors/black.jpg"
-            },
-            {
-              "numberOfItems": 7,
-              "blue": "../assets/products-gallery/boots-women-2/colors/blue.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             },
 
             {
-              "numberOfItems": 6,
-              "red": "../assets/products-gallery/boots-women-2/colors/red.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
+            }
+          ]
+        },
+        {
+          "size": 43,
+          "colors": [
+            {
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
+            },
+            {
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
+            },
+            {
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
+            },
+
+            {
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/boots-women-2/colors/red.jpg",
+              "colorName": "red",
+              "colorValue": "red"
             }
           ]
         }
@@ -2643,12 +3271,16 @@
           "size": 37,
           "colors": [
             {
-              "numberOfItems": 10,
-              "beige": "../assets/products-gallery/boots-men-4/colors/beige.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/boots-men-4/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 10,
-              "black": "../assets/products-gallery/boots-men-4/colors/black.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/boots-men-4/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2656,12 +3288,16 @@
           "size": 38,
           "colors": [
             {
-              "numberOfItems": 8,
-              "beige": "../assets/products-gallery/boots-men-4/colors/beige.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/boots-men-4/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 9,
-              "black": "../assets/products-gallery/boots-men-4/colors/black.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/boots-men-4/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2669,12 +3305,16 @@
           "size": 39,
           "colors": [
             {
-              "numberOfItems": 7,
-              "beige": "../assets/products-gallery/boots-men-4/colors/beige.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/boots-men-4/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 9,
-              "black": "../assets/products-gallery/boots-men-4/colors/black.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/boots-men-4/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2682,12 +3322,16 @@
           "size": 40,
           "colors": [
             {
-              "numberOfItems": 3,
-              "beige": "../assets/products-gallery/boots-men-4/colors/beige.jpg"
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/boots-men-4/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 2,
-              "black": "../assets/products-gallery/boots-men-4/colors/black.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/boots-men-4/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2695,12 +3339,16 @@
           "size": 41,
           "colors": [
             {
-              "numberOfItems": 4,
-              "beige": "../assets/products-gallery/boots-men-4/colors/beige.jpg"
+              "numberOfItems": 0,
+              "colorImage": "../assets/products-gallery/boots-men-4/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
               "numberOfItems": 3,
-              "black": "../assets/products-gallery/boots-men-4/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-4/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2709,11 +3357,15 @@
           "colors": [
             {
               "numberOfItems": 2,
-              "beige": "../assets/products-gallery/boots-men-4/colors/beige.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-4/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 3,
-              "black": "../assets/products-gallery/boots-men-4/colors/black.jpg"
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/boots-men-4/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2721,12 +3373,16 @@
           "size": 43,
           "colors": [
             {
-              "numberOfItems": 0,
-              "beige": "../assets/products-gallery/boots-men-4/colors/beige.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/boots-men-4/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 0,
-              "black": "../assets/products-gallery/boots-men-4/colors/black.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/boots-men-4/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2734,12 +3390,16 @@
           "size": 44,
           "colors": [
             {
-              "numberOfItems": 0,
-              "beige": "../assets/products-gallery/boots-men-4/colors/beige.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/boots-men-4/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 1,
-              "black": "../assets/products-gallery/boots-men-4/colors/black.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/boots-men-4/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         },
@@ -2747,12 +3407,16 @@
           "size": 45,
           "colors": [
             {
-              "numberOfItems": 0,
-              "beige": "../assets/products-gallery/boots-men-4/colors/beige.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/boots-men-4/colors/beige.jpg",
+              "colorName": "beige",
+              "colorValue": "beige"
             },
             {
-              "numberOfItems": 1,
-              "black": "../assets/products-gallery/boots-men-4/colors/black.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/boots-men-4/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             }
           ]
         }
@@ -2796,20 +3460,28 @@
           "size": 37,
           "colors": [
             {
-              "numberOfItems": 10,
-              "white": "../assets/products-gallery/boots-men-5/colors/white.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             },
             {
               "numberOfItems": 10,
-              "black": "../assets/products-gallery/boots-men-5/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 11,
-              "brown": "../assets/products-gallery/boots-men-5/colors/brown.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/brown.jpg",
+              "colorName": "brown",
+              "colorValue": "brown"
             },
             {
-              "numberOfItems": 10,
-              "blue": "../assets/products-gallery/boots-men-5/colors/blue.jpg"
+              "numberOfItems": 9,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             }
           ]
         },
@@ -2817,20 +3489,28 @@
           "size": 38,
           "colors": [
             {
-              "numberOfItems": 14,
-              "white": "../assets/products-gallery/boots-men-5/colors/white.jpg"
+              "numberOfItems": 7,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 12,
-              "black": "../assets/products-gallery/boots-men-5/colors/black.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 10,
-              "brown": "../assets/products-gallery/boots-men-5/colors/brown.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/brown.jpg",
+              "colorName": "brown",
+              "colorValue": "brown"
             },
             {
               "numberOfItems": 9,
-              "blue": "../assets/products-gallery/boots-men-5/colors/blue.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             }
           ]
         },
@@ -2838,20 +3518,28 @@
           "size": 39,
           "colors": [
             {
-              "numberOfItems": 9,
-              "white": "../assets/products-gallery/boots-men-5/colors/white.jpg"
+              "numberOfItems": 8,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             },
             {
               "numberOfItems": 7,
-              "black": "../assets/products-gallery/boots-men-5/colors/black.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 8,
-              "brown": "../assets/products-gallery/boots-men-5/colors/brown.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/brown.jpg",
+              "colorName": "brown",
+              "colorValue": "brown"
             },
             {
-              "numberOfItems": 10,
-              "blue": "../assets/products-gallery/boots-men-5/colors/blue.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             }
           ]
         },
@@ -2859,20 +3547,28 @@
           "size": 40,
           "colors": [
             {
-              "numberOfItems": 7,
-              "white": "../assets/products-gallery/boots-men-5/colors/white.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 8,
-              "black": "../assets/products-gallery/boots-men-5/colors/black.jpg"
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 9,
-              "brown": "../assets/products-gallery/boots-men-5/colors/brown.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/brown.jpg",
+              "colorName": "brown",
+              "colorValue": "brown"
             },
             {
-              "numberOfItems": 10,
-              "blue": "../assets/products-gallery/boots-men-5/colors/blue.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             }
           ]
         },
@@ -2880,20 +3576,28 @@
           "size": 41,
           "colors": [
             {
-              "numberOfItems": 4,
-              "white": "../assets/products-gallery/boots-men-5/colors/white.jpg"
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
+            },
+            {
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
+            },
+            {
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/brown.jpg",
+              "colorName": "brown",
+              "colorValue": "brown"
             },
             {
               "numberOfItems": 6,
-              "black": "../assets/products-gallery/boots-men-5/colors/black.jpg"
-            },
-            {
-              "numberOfItems": 5,
-              "brown": "../assets/products-gallery/boots-men-5/colors/brown.jpg"
-            },
-            {
-              "numberOfItems": 7,
-              "blue": "../assets/products-gallery/boots-men-5/colors/blue.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             }
           ]
         },
@@ -2901,20 +3605,28 @@
           "size": 42,
           "colors": [
             {
-              "numberOfItems": 6,
-              "white": "../assets/products-gallery/boots-men-5/colors/white.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             },
             {
-              "numberOfItems": 6,
-              "black": "../assets/products-gallery/boots-men-5/colors/black.jpg"
+              "numberOfItems": 2,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
             },
             {
-              "numberOfItems": 7,
-              "brown": "../assets/products-gallery/boots-men-5/colors/brown.jpg"
+              "numberOfItems": 3,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/brown.jpg",
+              "colorName": "brown",
+              "colorValue": "brown"
             },
             {
-              "numberOfItems": 10,
-              "blue": "../assets/products-gallery/boots-men-5/colors/blue.jpg"
+              "numberOfItems": 5,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             }
           ]
         },
@@ -2922,28 +3634,36 @@
           "size": 43,
           "colors": [
             {
-              "numberOfItems": 10,
-              "white": "../assets/products-gallery/boots-men-5/colors/white.jpg"
-            },
-            {
-              "numberOfItems": 8,
-              "black": "../assets/products-gallery/boots-men-5/colors/black.jpg"
-            },
-            {
               "numberOfItems": 7,
-              "brown": "../assets/products-gallery/boots-men-5/colors/brown.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/white.jpg",
+              "colorName": "white",
+              "colorValue": "white"
             },
             {
               "numberOfItems": 5,
-              "blue": "../assets/products-gallery/boots-men-5/colors/blue.jpg"
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/black.jpg",
+              "colorName": "black",
+              "colorValue": "black"
+            },
+            {
+              "numberOfItems": 4,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/brown.jpg",
+              "colorName": "brown",
+              "colorValue": "brown"
+            },
+            {
+              "numberOfItems": 6,
+              "colorImage": "../assets/products-gallery/boots-men-5/colors/blue.jpg",
+              "colorName": "blue",
+              "colorValue": "blue"
             }
           ]
         }
       ],
       "price": {
-        "current": 42,
-        "discount": false,
-        "old": ""
+        "current": 29,
+        "discount": true,
+        "old": 49
       },
       "gender": "male",
       "specs": {

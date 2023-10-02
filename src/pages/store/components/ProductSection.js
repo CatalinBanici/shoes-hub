@@ -11,20 +11,20 @@ export default function ProductSection() {
   const divide = substract / product[0].price.old;
   const discount = divide * 100;
 
-  const stock = product[0].stock.map((element) => {
-    return element;
+  const stock = product[0].stock.map((stockItem) => {
+    return stockItem;
   });
   const [productStock, setProductStock] = useState(stock[0]);
   const [colorValue, setColorValue] = useState("");
   const [sizeValue, setSizeValue] = useState(productStock.size);
   const [numberOfProducts, setNumberOfProducts] = useState(0);
 
-  console.log("product", product);
-  console.log("stock", stock);
-  console.log("productstock", productStock);
-  console.log("sizeValue", sizeValue);
-  console.log("colorValue", colorValue);
-  console.log("numberOfProducts", numberOfProducts);
+  // console.log("product", product);
+  // console.log("stock", stock);
+  // console.log("productstock", productStock);
+  // console.log("sizeValue", sizeValue);
+  // console.log("colorValue", colorValue);
+  // console.log("numberOfProducts", numberOfProducts);
   return (
     <section className="my-10 ml-5 mr-10 w-[55%]">
       <div className="mb-5 bg-white p-5">
@@ -53,7 +53,7 @@ export default function ProductSection() {
         <div className="relative my-5">
           <h2 className="my-3 text-xl">Select a size:</h2>
           <div className="flex flex-row">
-            {stock.map((element, index) => (
+            {stock.map((stockItem, index) => (
               <div className="relative mx-1  h-10 w-10" key={index}>
                 <input
                   className="peer relative left-0 top-0 z-10 h-full w-full cursor-pointer opacity-0 "
@@ -62,14 +62,14 @@ export default function ProductSection() {
                   name="size"
                   onChange={() => {
                     setProductStock(stock[index]);
-                    setSizeValue(element.size);
+                    setSizeValue(stockItem.size);
                     setNumberOfProducts(0);
                     setColorValue("");
                   }}
-                  checked={element.size === productStock.size}
+                  checked={stockItem.size === productStock.size}
                 />
                 <label className="absolute left-0 top-0 flex h-full w-full  items-center justify-center rounded-full border-2 border-gray-300 peer-checked:border-gray-600 ">
-                  {element.size}
+                  {stockItem.size}
                 </label>
               </div>
             ))}
@@ -78,11 +78,12 @@ export default function ProductSection() {
         <div className="relative my-5">
           <h2 className="my-3 text-xl">Select a color:</h2>
           <div className="flex h-36 flex-row gap-4">
-            {productStock.colors.map((color, index) => (
+            {productStock.colors.map((colorItem, index) => (
               <div key={index}>
                 <div className="flex w-full items-center justify-center">
                   <label className="" htmlFor={index}>
-                    {Object.keys(color)[1]}
+                    {colorItem.colorName.charAt(0).toUpperCase() +
+                      colorItem.colorName.slice(1)}
                   </label>
                 </div>
 
@@ -92,50 +93,53 @@ export default function ProductSection() {
                     id={index}
                     name="color"
                     type="radio"
-                    disabled={Object.values(color)[0] <= 0}
+                    disabled={colorItem.numberOfItems <= 0}
                     onChange={() => {
-                      setColorValue(Object.keys(color)[1]);
-                      setNumberOfProducts(color.numberOfItems);
+                      setColorValue(colorItem.colorName);
+                      setNumberOfProducts(colorItem.numberOfItems);
                     }}
-                    checked={Object.keys(color)[1] === colorValue}
+                    checked={colorItem.colorName === colorValue}
                   />
                   <img
                     className={`${
-                      Object.values(color)[0] <= 0 && " opacity-50"
+                      colorItem.numberOfItems <= 0 && " opacity-50"
                     } border-gray absolute left-0 top-0 h-full w-full border-2 peer-checked:border-gray-600 peer-disabled:border-red-500  `}
-                    src={`${Object.values(color)[1]}`}
-                    alt={`${Object.keys(color)[1]}`}
+                    src={`${colorItem.colorImage}`}
+                    alt={`${colorItem.colorName}`}
                   />
                 </div>
                 <div className="text-center text-sm text-red-500">
-                  {(Object.values(color)[0] <= 0 && "Out of stock!") ||
-                    (Object.values(color)[0] <= 3 &&
-                      `Only ${Object.values(color)[0]} left`)}
+                  {(colorItem.numberOfItems <= 0 && "Out of stock!") ||
+                    (colorItem.numberOfItems <= 3 &&
+                      `Only ${colorItem.numberOfItems} left`)}
                 </div>
               </div>
             ))}
           </div>
         </div>
       </div>
-      <button
-        className=" disabled:bg-gray-500"
-        onClick={() =>
-          numberOfProducts &&
-          dispatch(
-            addToCart({
-              id: product[0].id,
-              img: product[0].gallery.main,
-              amount: 1,
-              price: product[0].price.current,
-              name: product[0].name,
-              size: sizeValue,
-              color: colorValue,
-            }),
-          )
-        }
-      >
-        add
-      </button>
+      <div>
+        {colorValue && <div>in stock: {numberOfProducts}</div>}
+        <button
+          className=" disabled:bg-gray-500"
+          onClick={() =>
+            numberOfProducts &&
+            dispatch(
+              addToCart({
+                id: product[0].id,
+                img: product[0].gallery.main,
+                amount: 1,
+                price: product[0].price.current,
+                name: product[0].name,
+                size: sizeValue,
+                color: colorValue,
+              }),
+            )
+          }
+        >
+          add
+        </button>
+      </div>
     </section>
   );
 }
