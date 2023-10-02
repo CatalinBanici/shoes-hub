@@ -1,5 +1,5 @@
-import ProductGallery from "./ProductGallery";
-import ProductSection from "./ProductSection";
+import ProductGallery from "./components/ProductGallery";
+import ProductSection from "./components/ProductSection";
 
 export default function ProductPage() {
   return (
