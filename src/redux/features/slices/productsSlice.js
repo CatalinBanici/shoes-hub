@@ -64,6 +64,33 @@ export const productsSlice = createSlice({
       const saveState = JSON.stringify(state.singleProduct);
       sessionStorage.setItem("singleProduct", saveState);
     },
+    filterByColor(state, action) {
+      const colors = action.payload;
+
+      const productColors = state.filteredProducts.filter((product) => {
+        const stock = product.stock.map((e) => e);
+        const colorsStock = stock[1].colors;
+        const colorValues = colorsStock.map((e) => e.colorValue);
+        return colorValues.includes(...colors);
+      });
+
+      console.log("colors", ...colors);
+      console.log("productColors", productColors);
+
+      state.filteredProducts = productColors;
+      // const productColors = state.filteredProducts.map((product) => {
+      //   const stock = product.stock.map((e) => e);
+      //   const colorsStock = stock[1].colors;
+      //   const colorValues = colorsStock.map((e) => e.colorValue);
+      //   return colorValues;
+      // });
+
+      // const colorFilteredProduct = productColors.filter((product) => {
+      //   product.includes(action.payload);
+      // });
+      // state.filteredProducts = colorFilteredProduct;
+      // console.log("colorFilteredProduct", colorFilteredProduct);
+    },
   },
 });
 
@@ -72,5 +99,6 @@ export const {
   filterByCategoryFemale,
   filterByGender,
   filterById,
+  filterByColor,
 } = productsSlice.actions;
 export default productsSlice.reducer;

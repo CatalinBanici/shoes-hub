@@ -1,6 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { useDispatch } from "react-redux";
+import { filterByColor } from "../../../redux/features/slices/productsSlice";
 
 export default function ProductFilters({ products }) {
+  const dispatch = useDispatch();
   // creating an array of all the product colors
   const productColors = products.map((product) => {
     const stock = product.stock.map((e) => e);
@@ -14,27 +17,28 @@ export default function ProductFilters({ products }) {
   });
 
   const [filteredColors, setFilteredColors] = useState(colors);
-  const [filterValues, setFilterValues] = useState({
-    colors: "",
-    price: "",
-  });
+
+  const updatedColors = [...filteredColors];
+
+  const checkedColor = filteredColors.filter((e) => e.selected === true);
+
+  const singleColor = checkedColor.map((e) => e.name);
 
   function toggleColor(index) {
-    const updatedColors = [...filteredColors];
     updatedColors[index].selected = !updatedColors[index].selected;
     setFilteredColors(updatedColors);
-    setFilterValues({
-      ...filterValues,
-      colors: updatedColors[index].name,
-    });
-    //dispatch here updatedColors[index]
-    // console.log(updatedColors[index]);
   }
-  console.log(filterValues);
+
+  //   console.log("filteredColors", filteredColors);
+  //   console.log("checkedColor", checkedColor);
+  //   console.log("singleColor", singleColor);
 
   return (
     <div>
       <div>
+        <button onClick={() => dispatch(filterByColor(["beige", "green"]))}>
+          dispatch
+        </button>
         <button>Select a color</button>
         <div>
           {filteredColors.map((color, index) => (
