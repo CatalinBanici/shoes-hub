@@ -29,14 +29,18 @@ export default function ProductFilters({ products }) {
     setFilteredColors(updatedColors);
   }
 
-  //   console.log("filteredColors", filteredColors);
-  //   console.log("checkedColor", checkedColor);
-  //   console.log("singleColor", singleColor);
+  console.log("filteredColors", filteredColors);
+  console.log("checkedColor", checkedColor);
+  console.log("singleColor", singleColor);
 
   return (
     <div>
       <div>
-        <button onClick={() => dispatch(filterByColor(["beige", "green"]))}>
+        <button
+          onClick={() =>
+            singleColor.length && dispatch(filterByColor(singleColor))
+          }
+        >
           dispatch
         </button>
         <button>Select a color</button>

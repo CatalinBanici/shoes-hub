@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import data from "../../../data/data.json";
+import { useEffect } from "react";
 
 const allProducts = data.products.map((product) => product);
 
@@ -8,6 +9,7 @@ export const productsSlice = createSlice({
   initialState: {
     filteredProducts:
       JSON.parse(sessionStorage.getItem("filteredProducts")) || allProducts,
+    //sortedProducts
     singleProduct:
       JSON.parse(sessionStorage.getItem("singleProduct")) || allProducts,
   },
@@ -65,19 +67,23 @@ export const productsSlice = createSlice({
       sessionStorage.setItem("singleProduct", saveState);
     },
     filterByColor(state, action) {
+      function compareArrays(arr1, arr2) {
+        return arr1.some((element) => arr2.includes(element));
+      }
       const colors = action.payload;
 
       const productColors = state.filteredProducts.filter((product) => {
         const stock = product.stock.map((e) => e);
         const colorsStock = stock[1].colors;
         const colorValues = colorsStock.map((e) => e.colorValue);
-        return colorValues.includes(...colors);
+        return compareArrays(colors, colorValues);
       });
 
-      console.log("colors", ...colors);
+      console.log("colors", colors);
       console.log("productColors", productColors);
 
       state.filteredProducts = productColors;
+
       // const productColors = state.filteredProducts.map((product) => {
       //   const stock = product.stock.map((e) => e);
       //   const colorsStock = stock[1].colors;
