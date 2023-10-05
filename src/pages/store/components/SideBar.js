@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import {
   filterByCategoryMale,
   filterByCategoryFemale,
+  resetFilters,
 } from "../../../redux/features/slices/productsSlice";
 import { AiOutlineDown } from "react-icons/ai";
 import data from "../../../data/data.json";
@@ -54,9 +55,10 @@ export default function SideBar() {
             {categoriesMale.map((category, index) => (
               <Link
                 className=" text-md my-1 text-gray-700"
-                onClick={() =>
-                  dispatch(filterByCategoryMale(category.toLowerCase()))
-                }
+                onClick={() => {
+                  dispatch(filterByCategoryMale(category.toLowerCase()));
+                  dispatch(resetFilters());
+                }}
                 key={index}
               >
                 {category.charAt(0).toUpperCase() + category.slice(1)}
@@ -90,9 +92,10 @@ export default function SideBar() {
             {categoriesFemale.map((category, index) => (
               <Link
                 className=" text-md my-1 text-gray-700"
-                onClick={() =>
-                  dispatch(filterByCategoryFemale(category.toLowerCase()))
-                }
+                onClick={() => {
+                  dispatch(filterByCategoryFemale(category.toLowerCase()));
+                  dispatch(resetFilters());
+                }}
                 key={index}
               >
                 {category.charAt(0).toUpperCase() + category.slice(1)}

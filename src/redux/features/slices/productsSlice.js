@@ -9,7 +9,7 @@ export const productsSlice = createSlice({
   initialState: {
     filteredProducts:
       JSON.parse(sessionStorage.getItem("filteredProducts")) || allProducts,
-    //sortedProducts
+    colorFilteredProducts: [],
     singleProduct:
       JSON.parse(sessionStorage.getItem("singleProduct")) || allProducts,
   },
@@ -82,7 +82,7 @@ export const productsSlice = createSlice({
       console.log("colors", colors);
       console.log("productColors", productColors);
 
-      state.filteredProducts = productColors;
+      state.colorFilteredProducts = productColors;
 
       // const productColors = state.filteredProducts.map((product) => {
       //   const stock = product.stock.map((e) => e);
@@ -97,6 +97,9 @@ export const productsSlice = createSlice({
       // state.filteredProducts = colorFilteredProduct;
       // console.log("colorFilteredProduct", colorFilteredProduct);
     },
+    resetFilters(state) {
+      state.colorFilteredProducts = [];
+    },
   },
 });
 
@@ -106,5 +109,6 @@ export const {
   filterByGender,
   filterById,
   filterByColor,
+  resetFilters,
 } = productsSlice.actions;
 export default productsSlice.reducer;

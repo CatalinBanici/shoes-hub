@@ -11,8 +11,10 @@ import ProductPage from "./pages/product/ProductPage";
 import { useSelector } from "react-redux";
 
 function App() {
-  const cart = useSelector((state) => state.cart);
-  // console.log(cart);
+  const colorFilteredProducts = useSelector(
+    (state) => state.products.colorFilteredProducts,
+  );
+  console.log("COLORFILTEREDPRODUCTS", colorFilteredProducts);
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<RootPage />}>

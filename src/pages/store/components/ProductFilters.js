@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
-import { filterByColor } from "../../../redux/features/slices/productsSlice";
+import {
+  filterByColor,
+  resetFilters,
+} from "../../../redux/features/slices/productsSlice";
 
 export default function ProductFilters({ products }) {
   const dispatch = useDispatch();
@@ -16,6 +19,8 @@ export default function ProductFilters({ products }) {
     return { name: color, selected: false };
   });
 
+  // i need to find a way to change this state when i click on a category in the sidebar component
+  // so the colors will automatically change when i switch a category type
   const [filteredColors, setFilteredColors] = useState(colors);
 
   const updatedColors = [...filteredColors];
@@ -36,13 +41,12 @@ export default function ProductFilters({ products }) {
   return (
     <div>
       <div>
-        <button
-          onClick={() =>
-            singleColor.length && dispatch(filterByColor(singleColor))
-          }
-        >
+        <button onClick={() => dispatch(filterByColor(singleColor))}>
           dispatch
         </button>
+        <hr />
+        <button onClick={() => dispatch(resetFilters())}>reset</button>
+        <hr />
         <button>Select a color</button>
         <div>
           {filteredColors.map((color, index) => (
