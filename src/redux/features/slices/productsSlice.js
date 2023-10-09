@@ -71,6 +71,7 @@ export const productsSlice = createSlice({
         return arr1.some((element) => arr2.includes(element));
       }
       const colors = action.payload.filterByColor;
+      const priceSortType = action.payload.sortByPrice;
 
       const productColors = state.filteredProducts.filter((product) => {
         const stock = product.stock.map((e) => e);
@@ -79,10 +80,52 @@ export const productsSlice = createSlice({
         return compareArrays(colors, colorValues);
       });
 
-      // console.log("colors", colors);
-      // console.log("productColors", productColors);
+      console.log(priceSortType);
 
-      state.colorFilteredProducts = productColors;
+      // console.log("colors", colors);
+      console.log("productColors", productColors);
+
+      // state.colorFilteredProducts = productColors;
+
+      if (productColors.length === 0) {
+        if (priceSortType === "price+") {
+          const priceAsc = state.filteredProducts.sort((a, b) => {
+            return a.price.current < b.price.current ? -1 : 1;
+          });
+          state.filteredProducts = priceAsc;
+        } else if (priceSortType === "price-") {
+          const priceDesc = state.filteredProducts.sort((a, b) => {
+            return a.price.current > b.price.current ? -1 : 1;
+          });
+          state.filteredProducts = priceDesc;
+        } else {
+          state.filteredProducts;
+        }
+      } else {
+        if (priceSortType === "price+") {
+          state.colorFilteredProducts = productColors.sort((a, b) => {
+            return a.price.current < b.price.current ? -1 : 1;
+          });
+        } else if (priceSortType === "price-") {
+          state.colorFilteredProducts = productColors.sort((a, b) => {
+            return a.price.current > b.price.current ? -1 : 1;
+          });
+        } else {
+          state.colorFilteredProducts = productColors;
+        }
+      }
+
+      // if (priceSortType === "price+") {
+      //   state.colorFilteredProducts = productColors.sort((a, b) => {
+      //     return a.price.current < b.price.current ? -1 : 1;
+      //   });
+      // } else if (priceSortType === "price-") {
+      //   state.colorFilteredProducts = productColors.sort((a, b) => {
+      //     return a.price.current > b.price.current ? -1 : 1;
+      //   });
+      // } else {
+      //   state.colorFilteredProducts = productColors;
+      // }
 
       // const productColors = state.filteredProducts.map((product) => {
       //   const stock = product.stock.map((e) => e);
@@ -98,6 +141,7 @@ export const productsSlice = createSlice({
       // console.log("colorFilteredProduct", colorFilteredProduct);
     },
     resetFilters(state) {
+      // to rework on this so when i click reset the filteredproducts state should reset
       state.colorFilteredProducts = [];
     },
   },

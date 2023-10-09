@@ -24,9 +24,11 @@ export default function ProductFilters({ products }) {
   // i can try to put a useeffect here and inside it setfilteredcolors and the state.filteredproducts as a dependency arr
 
   const [filteredColors, setFilteredColors] = useState(colors);
+  const [price, setPrice] = useState("");
 
   useEffect(() => {
     setFilteredColors(colors);
+    setPrice("none");
     console.log("effect");
   }, [products]);
 
@@ -41,10 +43,18 @@ export default function ProductFilters({ products }) {
     setFilteredColors(updatedColors);
   }
 
+  function priceSort(event) {
+    setPrice(event.target.value);
+  }
+
+  //   console.log("price", price);
+
   const filterAndSortValues = {
     filterByColor: singleColor,
-    sortByPrice: "",
+    sortByPrice: price,
   };
+
+  //   console.log("filterAndSortValues", filterAndSortValues);
 
   //   console.log("filteredColors", filteredColors);
   //   console.log("checkedColor", checkedColor);
@@ -62,11 +72,21 @@ export default function ProductFilters({ products }) {
           onClick={() => {
             dispatch(resetFilters());
             setFilteredColors(colors);
+            setPrice("none");
           }}
         >
           reset
         </button>
         <hr />
+        <div>
+          <select name="priceSorting" onChange={priceSort}>
+            <option defaultValue="none" hidden>
+              sort by price
+            </option>
+            <option value="price+">price 0-9</option>
+            <option value="price-">price 9-0</option>
+          </select>
+        </div>
         <hr />
         <button>Select a color</button>
         <div>

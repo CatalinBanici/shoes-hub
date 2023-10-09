@@ -14,7 +14,7 @@ function App() {
   const colorFilteredProducts = useSelector(
     (state) => state.products.colorFilteredProducts,
   );
-  console.log("COLORFILTEREDPRODUCTS", colorFilteredProducts);
+  // console.log("COLORFILTEREDPRODUCTS", colorFilteredProducts);
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<RootPage />}>
