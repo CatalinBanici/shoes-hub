@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import {
   filterByColor,
   resetFilters,
@@ -21,7 +21,14 @@ export default function ProductFilters({ products }) {
 
   // i need to find a way to change this state when i click on a category in the sidebar component
   // so the colors will automatically change when i switch a category type
+  // i can try to put a useeffect here and inside it setfilteredcolors and the state.filteredproducts as a dependency arr
+
   const [filteredColors, setFilteredColors] = useState(colors);
+
+  useEffect(() => {
+    setFilteredColors(colors);
+    console.log("effect");
+  }, [products]);
 
   const updatedColors = [...filteredColors];
 
@@ -34,18 +41,32 @@ export default function ProductFilters({ products }) {
     setFilteredColors(updatedColors);
   }
 
-  console.log("filteredColors", filteredColors);
-  console.log("checkedColor", checkedColor);
-  console.log("singleColor", singleColor);
+  const filterAndSortValues = {
+    filterByColor: singleColor,
+    sortByPrice: "",
+  };
+
+  //   console.log("filteredColors", filteredColors);
+  //   console.log("checkedColor", checkedColor);
+  //   console.log("singleColor", singleColor);
+  //   console.log("colors", colors);
 
   return (
     <div>
       <div>
-        <button onClick={() => dispatch(filterByColor(singleColor))}>
+        <button onClick={() => dispatch(filterByColor(filterAndSortValues))}>
           dispatch
         </button>
         <hr />
-        <button onClick={() => dispatch(resetFilters())}>reset</button>
+        <button
+          onClick={() => {
+            dispatch(resetFilters());
+            setFilteredColors(colors);
+          }}
+        >
+          reset
+        </button>
+        <hr />
         <hr />
         <button>Select a color</button>
         <div>

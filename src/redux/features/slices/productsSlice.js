@@ -70,7 +70,7 @@ export const productsSlice = createSlice({
       function compareArrays(arr1, arr2) {
         return arr1.some((element) => arr2.includes(element));
       }
-      const colors = action.payload;
+      const colors = action.payload.filterByColor;
 
       const productColors = state.filteredProducts.filter((product) => {
         const stock = product.stock.map((e) => e);
@@ -79,8 +79,8 @@ export const productsSlice = createSlice({
         return compareArrays(colors, colorValues);
       });
 
-      console.log("colors", colors);
-      console.log("productColors", productColors);
+      // console.log("colors", colors);
+      // console.log("productColors", productColors);
 
       state.colorFilteredProducts = productColors;
 
