@@ -24,7 +24,7 @@ export default function ProductFilters({ products }) {
   // i can try to put a useeffect here and inside it setfilteredcolors and the state.filteredproducts as a dependency arr
 
   const [filteredColors, setFilteredColors] = useState(colors);
-  const [price, setPrice] = useState("");
+  const [price, setPrice] = useState("none");
 
   useEffect(() => {
     setFilteredColors(colors);
@@ -54,7 +54,7 @@ export default function ProductFilters({ products }) {
     sortByPrice: price,
   };
 
-  //   console.log("filterAndSortValues", filterAndSortValues);
+  console.log("filterAndSortValues", filterAndSortValues);
 
   //   console.log("filteredColors", filteredColors);
   //   console.log("checkedColor", checkedColor);
@@ -64,7 +64,14 @@ export default function ProductFilters({ products }) {
   return (
     <div>
       <div>
-        <button onClick={() => dispatch(filterByColor(filterAndSortValues))}>
+        <button
+          className="disabled:bg-gray-400"
+          disabled={
+            !filterAndSortValues.filterByColor.length &&
+            filterAndSortValues.sortByPrice === "none"
+          }
+          onClick={() => dispatch(filterByColor(filterAndSortValues))}
+        >
           dispatch
         </button>
         <hr />
@@ -83,11 +90,16 @@ export default function ProductFilters({ products }) {
             <option defaultValue="none" hidden>
               sort by price
             </option>
-            <option value="price+">price 0-9</option>
-            <option value="price-">price 9-0</option>
+            <option selected={price === "price+"} value="price+">
+              price 0-9
+            </option>
+            <option selected={price === "price-"} value="price-">
+              price 9-0
+            </option>
           </select>
         </div>
         <hr />
+
         <button>Select a color</button>
         <div>
           {filteredColors.map((color, index) => (

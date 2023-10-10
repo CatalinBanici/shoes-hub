@@ -80,26 +80,29 @@ export const productsSlice = createSlice({
         return compareArrays(colors, colorValues);
       });
 
-      console.log(priceSortType);
+      // console.log(priceSortType);
 
-      // console.log("colors", colors);
+      // // console.log("colors", colors);
       console.log("productColors", productColors);
 
       // state.colorFilteredProducts = productColors;
 
+      const filteredProdCopy = [...state.filteredProducts];
+
       if (productColors.length === 0) {
         if (priceSortType === "price+") {
-          const priceAsc = state.filteredProducts.sort((a, b) => {
+          const priceAsc = filteredProdCopy.sort((a, b) => {
             return a.price.current < b.price.current ? -1 : 1;
           });
-          state.filteredProducts = priceAsc;
+          // console.log("priceAsc", priceAsc);
+          state.colorFilteredProducts = priceAsc;
         } else if (priceSortType === "price-") {
-          const priceDesc = state.filteredProducts.sort((a, b) => {
+          const priceDesc = filteredProdCopy.sort((a, b) => {
             return a.price.current > b.price.current ? -1 : 1;
           });
-          state.filteredProducts = priceDesc;
+          state.colorFilteredProducts = priceDesc;
         } else {
-          state.filteredProducts;
+          return filteredProdCopy;
         }
       } else {
         if (priceSortType === "price+") {
@@ -114,6 +117,8 @@ export const productsSlice = createSlice({
           state.colorFilteredProducts = productColors;
         }
       }
+
+      console.log("state.colorFilteredProducts", state.colorFilteredProducts);
 
       // if (priceSortType === "price+") {
       //   state.colorFilteredProducts = productColors.sort((a, b) => {
@@ -141,7 +146,7 @@ export const productsSlice = createSlice({
       // console.log("colorFilteredProduct", colorFilteredProduct);
     },
     resetFilters(state) {
-      // to rework on this so when i click reset the filteredproducts state should reset
+      // to fix a bug when i click reset or change a category , the price sort stays the same
       state.colorFilteredProducts = [];
     },
   },
