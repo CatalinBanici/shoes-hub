@@ -19,13 +19,13 @@ export default function RootPage() {
 
   return (
     // <div className=" relative m-auto flex w-full max-w-[1600px] flex-col ">
-    <body className="font-roboto  flex w-full flex-col  bg-gray-100">
+    <body className="box-border  flex w-full flex-col  bg-gray-100 font-roboto">
       <header
         className={`${
           scrollPosition === 0
             ? "bg-[hsl(0, 0%, 100%, 0.1)] backdrop-blur-lg"
             : "bg-white"
-        } fixed z-10 flex h-20 w-full items-center shadow shadow-gray-200  duration-150 ease-out`}
+        } fixed z-20 flex h-20 w-full items-center shadow shadow-gray-200  duration-150 ease-out`}
       >
         <Navbar scrollPosition={scrollPosition} />
       </header>

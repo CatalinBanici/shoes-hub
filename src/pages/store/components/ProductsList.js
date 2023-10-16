@@ -14,10 +14,10 @@ export default function ProductsList() {
 
   return (
     <div className="flex flex-col">
-      <div>
+      <div className=" mx-10 flex flex-row bg-white">
         <ProductFilters products={products} />
       </div>
-      <div className="items-top mx-10 flex flex-1 flex-wrap justify-around gap-10">
+      <div className="items-top m-10 flex flex-1 flex-wrap justify-around gap-10">
         {sortedProducts.length
           ? sortedProducts.map((product) => (
               <Link
