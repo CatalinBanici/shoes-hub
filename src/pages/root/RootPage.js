@@ -19,7 +19,7 @@ export default function RootPage() {
 
   return (
     // <div className=" relative m-auto flex w-full max-w-[1600px] flex-col ">
-    <body className="box-border  flex w-full flex-col  bg-gray-100 font-roboto">
+    <body className="flex w-full flex-col  bg-gray-100 font-roboto">
       <header
         className={`${
           scrollPosition === 0

@@ -18,6 +18,8 @@ export default function ProductSection() {
   const [colorValue, setColorValue] = useState("");
   const [sizeValue, setSizeValue] = useState(productStock.size);
   const [numberOfProducts, setNumberOfProducts] = useState(0);
+  const [productCount, setProductCount] = useState(1);
+  const [errorMessage, setErrorMessage] = useState("");
 
   // console.log("product", product);
   // console.log("stock", stock);
@@ -49,7 +51,7 @@ export default function ProductSection() {
         )}
       </div>
       <hr />
-      <div>
+      <div className="h-[300px]">
         <div className="relative my-5">
           <h2 className="my-3 text-xl">Select a size:</h2>
           <div className="flex flex-row">
@@ -65,6 +67,8 @@ export default function ProductSection() {
                     setSizeValue(stockItem.size);
                     setNumberOfProducts(0);
                     setColorValue("");
+                    setProductCount(1);
+                    setErrorMessage("");
                   }}
                   checked={stockItem.size === productStock.size}
                 />
@@ -75,9 +79,9 @@ export default function ProductSection() {
             ))}
           </div>
         </div>
-        <div className="relative my-5">
+        <div className="relative mt-5">
           <h2 className="my-3 text-xl">Select a color:</h2>
-          <div className="flex h-36 flex-row gap-4">
+          <div className="flex h-32 flex-row gap-4">
             {productStock.colors.map((colorItem, index) => (
               <div key={index}>
                 <div className="flex w-full items-center justify-center">
@@ -97,6 +101,7 @@ export default function ProductSection() {
                     onChange={() => {
                       setColorValue(colorItem.colorName);
                       setNumberOfProducts(colorItem.numberOfItems);
+                      setProductCount(1);
                     }}
                     checked={colorItem.colorName === colorValue}
                   />
@@ -117,8 +122,65 @@ export default function ProductSection() {
             ))}
           </div>
         </div>
+        {colorValue && (
+          <div className="text-gray-800">In stock: {numberOfProducts}</div>
+        )}
       </div>
-      <div>
+      <div className="flex w-full flex-col bg-white">
+        <div className="m-4 flex flex-row">
+          <h3 className="text-lg ">Number of Products:</h3>
+          <div className="mx-4">
+            <button
+              disabled={productCount === 1 || !colorValue}
+              onClick={() => setProductCount((count) => count - 1)}
+              className="h-7 w-7 rounded-full bg-gray-200 text-lg disabled:bg-gray-100 disabled:text-gray-400"
+            >
+              -
+            </button>
+            <span className="mx-2">{productCount}</span>
+            <button
+              onClick={() => setProductCount((count) => count + 1)}
+              className="h-7 w-7 rounded-full bg-gray-200 text-lg disabled:bg-gray-100 disabled:text-gray-400"
+              disabled={productCount === numberOfProducts || !colorValue}
+            >
+              +
+            </button>
+          </div>
+        </div>
+        <div className="h-[110px]">
+          <div className="flex h-20 w-full items-center justify-around">
+            <button className="rounded-xl bg-orange-400 px-10 py-3 text-xl text-white ">
+              Buy Now
+            </button>
+            <button
+              onClick={() => {
+                numberOfProducts &&
+                  dispatch(
+                    addToCart({
+                      id: product[0].id,
+                      name: product[0].name,
+                      img: product[0].gallery.main,
+                      size: sizeValue,
+                      color: colorValue,
+                      price: product[0].price.current,
+                      totalPrice: product[0].price.current,
+                      amount: productCount,
+                    }),
+                  );
+                !numberOfProducts && setErrorMessage("You must pick a color!");
+              }}
+              className="rounded-lg border-4 border-gray-400 px-10 py-3 text-xl text-gray-800"
+            >
+              Add to Cart
+            </button>
+          </div>
+          {!numberOfProducts && (
+            <p className="mx-4 text-red-500">{errorMessage}</p>
+          )}
+        </div>
+      </div>
+
+      {/* <div>
         {colorValue && <div>in stock: {numberOfProducts}</div>}
         <button
           className=" disabled:bg-gray-500"
@@ -139,7 +201,7 @@ export default function ProductSection() {
         >
           add
         </button>
-      </div>
+      </div> */}
     </section>
   );
 }

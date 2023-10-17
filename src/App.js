@@ -17,8 +17,19 @@ function App() {
   const filteredProducts = useSelector(
     (state) => state.products.filteredProducts,
   );
-  console.log("COLORFILTEREDPRODUCTS", colorFilteredProducts);
-  console.log("FILTEREDPRODUCTS", filteredProducts);
+
+  const cart = useSelector((state) => state.cart.cart);
+  const totalProductsAmount = useSelector(
+    (state) => state.cart.totalProductsAmount,
+  );
+  const totalProductsPrice = useSelector(
+    (state) => state.cart.totalProductsPrice,
+  );
+  console.log("cart", cart);
+  console.log("totalProductsAmount", totalProductsAmount);
+  console.log("totalProductsPrice", totalProductsPrice);
+  // console.log("COLORFILTEREDPRODUCTS", colorFilteredProducts);
+  // console.log("FILTEREDPRODUCTS", filteredProducts);
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<RootPage />}>
