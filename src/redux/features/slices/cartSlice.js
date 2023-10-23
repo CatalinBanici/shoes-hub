@@ -12,8 +12,8 @@ export const cartSlice = createSlice({
       const productAlreadyExists = state.cart.find((product) => {
         return (
           product.id === action.payload.id &&
-          product.size === action.payload.size &&
-          product.color === action.payload.color
+          product.sizeNumber === action.payload.sizeNumber &&
+          product.colorName === action.payload.colorName
         );
       });
 
@@ -29,8 +29,9 @@ export const cartSlice = createSlice({
           id: action.payload.id,
           name: action.payload.name,
           img: action.payload.img,
-          size: action.payload.size,
-          color: action.payload.color,
+          sizeNumber: action.payload.sizeNumber,
+          colorName: action.payload.colorName,
+          colorValue: action.payload.colorValue,
           price: action.payload.price,
           totalPrice: action.payload.totalPrice * action.payload.amount,
           amount: action.payload.amount,
@@ -39,19 +40,6 @@ export const cartSlice = createSlice({
         state.totalProductsPrice +=
           action.payload.price * action.payload.amount;
       }
-
-      // state.cart.push({
-
-      //   // id: action.payload.id,
-      //   // price: action.payload.price,
-      //   // size: action.payload.size,
-      //   // amount: action.payload.amount,
-      //   // img: action.payload.img,
-      //   // name: action.payload.name,
-      //   // color: action.payload.color,
-      // });
-      // state.totalAmount++;
-      // state.totalPrice += action.payload.price;
     },
   },
 });

@@ -1,6 +1,11 @@
+// REACT
 import { useState, useEffect } from "react";
-import Navbar from "./components/Navbar";
+
+// REACT ROUTER
 import { Outlet } from "react-router-dom";
+
+// COMPONENTS
+import Navbar from "./components/Navbar";
 
 export default function RootPage() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -18,7 +23,6 @@ export default function RootPage() {
   }, []);
 
   return (
-    // <div className=" relative m-auto flex w-full max-w-[1600px] flex-col ">
     <body className="flex w-full flex-col  bg-gray-100 font-roboto">
       <header
         className={`${
@@ -27,7 +31,7 @@ export default function RootPage() {
             : "bg-white"
         } fixed z-20 flex h-20 w-full items-center shadow shadow-gray-200  duration-150 ease-out`}
       >
-        <Navbar scrollPosition={scrollPosition} />
+        <Navbar />
       </header>
       <main className=" relative top-20 w-full pb-32">
         <Outlet />
@@ -39,7 +43,5 @@ export default function RootPage() {
         </div>
       </footer>
     </body>
-
-    // </div>
   );
 }

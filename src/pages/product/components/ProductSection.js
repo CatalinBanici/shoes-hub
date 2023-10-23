@@ -1,9 +1,11 @@
-import React, { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+// REACT
+import { useState } from "react";
+
+// REDUX
+import { useDispatch } from "react-redux";
 import { addToCart } from "../../../redux/features/slices/cartSlice";
 
-export default function ProductSection() {
-  const product = useSelector((state) => state.products.singleProduct);
+export default function ProductSection({ product }) {
   const dispatch = useDispatch();
 
   // getting the discount % if there is any
@@ -11,30 +13,26 @@ export default function ProductSection() {
   const divide = substract / product[0].price.old;
   const discount = divide * 100;
 
-  const stock = product[0].stock.map((stockItem) => {
-    return stockItem;
-  });
-  const [productStock, setProductStock] = useState(stock[0]);
+  const stock = product[0].stock.map((stockItem) => stockItem);
+  const [selectedProductStock, setSelectedProductStock] = useState(stock[0]);
+  const [colorName, setColorName] = useState("");
   const [colorValue, setColorValue] = useState("");
-  const [sizeValue, setSizeValue] = useState(productStock.size);
+  const [sizeNumber, setSizeNumber] = useState(selectedProductStock.size);
   const [numberOfProducts, setNumberOfProducts] = useState(0);
   const [productCount, setProductCount] = useState(1);
   const [errorMessage, setErrorMessage] = useState("");
 
-  // console.log("product", product);
-  // console.log("stock", stock);
-  // console.log("productstock", productStock);
-  // console.log("sizeValue", sizeValue);
-  // console.log("colorValue", colorValue);
-  // console.log("numberOfProducts", numberOfProducts);
   return (
     <section className="my-10 ml-5 mr-10 w-[55%]">
+      {/* product name and description */}
       <div className="mb-5 bg-white p-5">
         <h2 className=" my-5 text-2xl text-gray-800">{product[0].name}</h2>
         <h4 className=" my-5 text-lg text-gray-700">
           {product[0].description}
         </h4>
       </div>
+
+      {/* product price */}
       <div className="my-5">
         <span className="mx-5 text-3xl text-gray-900">
           ${product[0].price.current}
@@ -52,6 +50,7 @@ export default function ProductSection() {
       </div>
       <hr />
       <div className="h-[300px]">
+        {/* product size */}
         <div className="relative my-5">
           <h2 className="my-3 text-xl">Select a size:</h2>
           <div className="flex flex-row">
@@ -63,14 +62,15 @@ export default function ProductSection() {
                   id={index}
                   name="size"
                   onChange={() => {
-                    setProductStock(stock[index]);
-                    setSizeValue(stockItem.size);
+                    setSelectedProductStock(stock[index]);
+                    setSizeNumber(stockItem.size);
                     setNumberOfProducts(0);
+                    setColorName("");
                     setColorValue("");
                     setProductCount(1);
                     setErrorMessage("");
                   }}
-                  checked={stockItem.size === productStock.size}
+                  checked={stockItem.size === selectedProductStock.size}
                 />
                 <label className="absolute left-0 top-0 flex h-full w-full  items-center justify-center rounded-full border-2 border-gray-300 peer-checked:border-gray-600 ">
                   {stockItem.size}
@@ -79,10 +79,12 @@ export default function ProductSection() {
             ))}
           </div>
         </div>
+
+        {/* product color */}
         <div className="relative mt-5">
           <h2 className="my-3 text-xl">Select a color:</h2>
           <div className="flex h-32 flex-row gap-4">
-            {productStock.colors.map((colorItem, index) => (
+            {selectedProductStock.colors.map((colorItem, index) => (
               <div key={index}>
                 <div className="flex w-full items-center justify-center">
                   <label className="" htmlFor={index}>
@@ -99,11 +101,12 @@ export default function ProductSection() {
                     type="radio"
                     disabled={colorItem.numberOfItems <= 0}
                     onChange={() => {
-                      setColorValue(colorItem.colorName);
+                      setColorName(colorItem.colorName);
+                      setColorValue(colorItem.colorValue);
                       setNumberOfProducts(colorItem.numberOfItems);
                       setProductCount(1);
                     }}
-                    checked={colorItem.colorName === colorValue}
+                    checked={colorItem.colorName === colorName}
                   />
                   <img
                     className={`${
@@ -122,16 +125,19 @@ export default function ProductSection() {
             ))}
           </div>
         </div>
-        {colorValue && (
+
+        {/* product stock number */}
+        {colorName && (
           <div className="text-gray-800">In stock: {numberOfProducts}</div>
         )}
       </div>
       <div className="flex w-full flex-col bg-white">
+        {/* product quantity */}
         <div className="m-4 flex flex-row">
-          <h3 className="text-lg ">Number of Products:</h3>
+          <h3 className="text-lg ">Choose Quantity:</h3>
           <div className="mx-4">
             <button
-              disabled={productCount === 1 || !colorValue}
+              disabled={productCount === 1 || !colorName}
               onClick={() => setProductCount((count) => count - 1)}
               className="h-7 w-7 rounded-full bg-gray-200 text-lg disabled:bg-gray-100 disabled:text-gray-400"
             >
@@ -141,12 +147,14 @@ export default function ProductSection() {
             <button
               onClick={() => setProductCount((count) => count + 1)}
               className="h-7 w-7 rounded-full bg-gray-200 text-lg disabled:bg-gray-100 disabled:text-gray-400"
-              disabled={productCount === numberOfProducts || !colorValue}
+              disabled={productCount === numberOfProducts || !colorName}
             >
               +
             </button>
           </div>
         </div>
+
+        {/* buy now and add to cart buttons */}
         <div className="h-[110px]">
           <div className="flex h-20 w-full items-center justify-around">
             <button className="rounded-xl bg-orange-400 px-10 py-3 text-xl text-white ">
@@ -160,8 +168,9 @@ export default function ProductSection() {
                       id: product[0].id,
                       name: product[0].name,
                       img: product[0].gallery.main,
-                      size: sizeValue,
-                      color: colorValue,
+                      sizeNumber: sizeNumber,
+                      colorName: colorName,
+                      colorValue: colorValue,
                       price: product[0].price.current,
                       totalPrice: product[0].price.current,
                       amount: productCount,
@@ -179,29 +188,6 @@ export default function ProductSection() {
           )}
         </div>
       </div>
-
-      {/* <div>
-        {colorValue && <div>in stock: {numberOfProducts}</div>}
-        <button
-          className=" disabled:bg-gray-500"
-          onClick={() =>
-            numberOfProducts &&
-            dispatch(
-              addToCart({
-                id: product[0].id,
-                img: product[0].gallery.main,
-                amount: 1,
-                price: product[0].price.current,
-                name: product[0].name,
-                size: sizeValue,
-                color: colorValue,
-              }),
-            )
-          }
-        >
-          add
-        </button>
-      </div> */}
     </section>
   );
 }

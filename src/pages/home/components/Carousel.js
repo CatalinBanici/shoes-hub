@@ -1,3 +1,7 @@
+// DATA
+import data from "../../../data/data.json";
+
+// SWIPER
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
   Navigation,
@@ -10,9 +14,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import data from "../../../data/data.json";
-
-import React from "react";
 
 export default function Carousel() {
   return (

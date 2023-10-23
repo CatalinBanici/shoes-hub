@@ -11,13 +11,6 @@ import ProductPage from "./pages/product/ProductPage";
 import { useSelector } from "react-redux";
 
 function App() {
-  const colorFilteredProducts = useSelector(
-    (state) => state.products.colorFilteredProducts,
-  );
-  const filteredProducts = useSelector(
-    (state) => state.products.filteredProducts,
-  );
-
   const cart = useSelector((state) => state.cart.cart);
   const totalProductsAmount = useSelector(
     (state) => state.cart.totalProductsAmount,
@@ -28,8 +21,7 @@ function App() {
   console.log("cart", cart);
   console.log("totalProductsAmount", totalProductsAmount);
   console.log("totalProductsPrice", totalProductsPrice);
-  // console.log("COLORFILTEREDPRODUCTS", colorFilteredProducts);
-  // console.log("FILTEREDPRODUCTS", filteredProducts);
+
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<RootPage />}>

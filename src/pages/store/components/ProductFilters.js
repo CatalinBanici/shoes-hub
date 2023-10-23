@@ -1,45 +1,40 @@
-import React, { useEffect, useRef, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+// REACT
+import { useEffect, useRef, useState } from "react";
+
+// REDUX
+import { useDispatch } from "react-redux";
 import {
-  filterByColor,
-  resetFilters,
+  filterByColorAndSortByPrice,
+  resetFilterByColorAndSortByPrice,
 } from "../../../redux/features/slices/productsSlice";
 
+// REACT ICONS
 import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
 import { BsSearch } from "react-icons/bs";
 
 export default function ProductFilters({ products }) {
+  const colorMenuRef = useRef();
+  const colorButtonRef = useRef();
   const dispatch = useDispatch();
-  // creating an array of all the product colors
+
+  // creating an array of arrays of all the colors from each product
   const productColors = products.map((product) => {
     const stock = product.stock.map((e) => e);
     const colorsStock = stock[1].colors;
     const colorValues = colorsStock.map((e) => e.colorValue);
     return colorValues;
   });
+
+  // flattening the productColors array and getting only one color type
   const colorsArray = [...new Set(productColors.flat())];
+
+  // getting the selected color and toggling it
   const colors = colorsArray.map((color) => {
     return { name: color, selected: false };
   });
-
-  // i need to find a way to change this state when i click on a category in the sidebar component
-  // so the colors will automatically change when i switch a category type
-  // i can try to put a useeffect here and inside it setfilteredcolors and the state.filteredproducts as a dependency arr
-
   const [filteredColors, setFilteredColors] = useState(colors);
-  const [price, setPrice] = useState("none");
-  const [colorMenu, setColorMenu] = useState(false);
-
-  useEffect(() => {
-    setFilteredColors(colors);
-    setPrice(null);
-    console.log("effect");
-  }, [products]);
-
   const updatedColors = [...filteredColors];
-
   const checkedColor = filteredColors.filter((e) => e.selected === true);
-
   const singleColor = checkedColor.map((e) => e.name);
 
   function toggleColor(index) {
@@ -47,28 +42,18 @@ export default function ProductFilters({ products }) {
     setFilteredColors(updatedColors);
   }
 
+  // price sorting type
+  const [price, setPrice] = useState("none");
+
   function priceSort(event) {
     setPrice(event.target.value);
   }
 
-  console.log("price", price);
-
-  const filterAndSortValues = {
-    filterByColor: singleColor,
-    sortByPrice: price,
-  };
-
-  console.log("filterAndSortValues", filterAndSortValues);
-
-  //   console.log("filteredColors", filteredColors);
-  //   console.log("checkedColor", checkedColor);
-  //   console.log("singleColor", singleColor);
-  //   console.log("colors", colors);
-
-  const colorMenuRef = useRef();
-  const colorButtonRef = useRef();
+  // color dropdown menu
+  const [colorMenu, setColorMenu] = useState(false);
 
   useEffect(() => {
+    // close the color menu dropdown when user clicks outside of it
     function closeNavOnOutsideClick(e) {
       if (
         colorMenu === true &&
@@ -79,16 +64,28 @@ export default function ProductFilters({ products }) {
         setColorMenu(false);
       }
     }
-    console.log("effect");
     document.addEventListener("mousedown", closeNavOnOutsideClick);
     return () => {
       document.removeEventListener("mousedown", closeNavOnOutsideClick);
     };
   }, [colorMenu]);
 
+  // when products (categoryAndGenderFilteredProducts) change, reset all filters
+  useEffect(() => {
+    setFilteredColors(colors);
+    setPrice(null);
+  }, [products]);
+
+  // values to be dispatched
+  const filterAndSortValues = {
+    filterByColor: singleColor,
+    sortByPrice: price,
+  };
+
   return (
     <>
       <div className="mx-3 flex flex-1">
+        {/* color filter menu dropdown */}
         <div className="relative">
           <button
             ref={colorButtonRef}
@@ -126,6 +123,8 @@ export default function ProductFilters({ products }) {
             ))}
           </ul>
         </div>
+
+        {/* price sorting buttons */}
         <div onChange={priceSort} className="flex items-center">
           <div className="relative mx-2">
             <input
@@ -161,9 +160,12 @@ export default function ProductFilters({ products }) {
           </div>
         </div>
 
+        {/* apply and reset filters buttons */}
         <div>
           <button
-            onClick={() => dispatch(filterByColor(filterAndSortValues))}
+            onClick={() =>
+              dispatch(filterByColorAndSortByPrice(filterAndSortValues))
+            }
             className="m-2 rounded-lg bg-gray-100 p-2 disabled:bg-white disabled:text-gray-400"
             disabled={
               !filterAndSortValues.filterByColor.length &&
@@ -174,7 +176,7 @@ export default function ProductFilters({ products }) {
           </button>
           <button
             onClick={() => {
-              dispatch(resetFilters());
+              dispatch(resetFilterByColorAndSortByPrice());
               setFilteredColors(colors);
               setPrice(null);
             }}
@@ -184,6 +186,8 @@ export default function ProductFilters({ products }) {
           </button>
         </div>
       </div>
+
+      {/* search filter */}
       <div className=" mx-3 flex items-center">
         <div className="mx-2 flex h-10 items-center rounded-md border-2 border-gray-600">
           <input
@@ -196,61 +200,6 @@ export default function ProductFilters({ products }) {
           </button>
         </div>
       </div>
-
-      {/* <div>
-        <button
-          className="disabled:bg-gray-400"
-          disabled={
-            !filterAndSortValues.filterByColor.length &&
-            filterAndSortValues.sortByPrice === "none"
-          }
-          onClick={() => dispatch(filterByColor(filterAndSortValues))}
-        >
-          dispatch
-        </button>
-        <hr />
-        <button
-          onClick={() => {
-            dispatch(resetFilters());
-            setFilteredColors(colors);
-            setPrice("none");
-          }}
-        >
-          reset
-        </button>
-        <hr />
-        <div>
-          <select name="priceSorting" onChange={priceSort}>
-            <option defaultValue="none" hidden>
-              sort by price
-            </option>
-            <option selected={price === "price+"} value="price+">
-              price 0-9
-            </option>
-            <option selected={price === "price-"} value="price-">
-              price 9-0
-            </option>
-          </select>
-        </div>
-        <hr />
-
-        <button>Select a color</button>
-        <div>
-          {filteredColors.map((color, index) => (
-            <div key={index}>
-              <input
-                type="checkbox"
-                name="color-input"
-                id={index}
-                value={color.name}
-                checked={color.selected}
-                onChange={() => toggleColor(index)}
-              />
-              <label htmlFor={index}>{color.name}</label>
-            </div>
-          ))}
-        </div>
-      </div> */}
     </>
   );
 }

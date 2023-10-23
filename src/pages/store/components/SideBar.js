@@ -1,19 +1,27 @@
-import React, { useState } from "react";
+// REACT
+import { useState } from "react";
+
+// REDUX
 import { useDispatch } from "react-redux";
-import { Link } from "react-router-dom";
 import {
   filterByCategoryMale,
   filterByCategoryFemale,
-  resetFilters,
+  resetFilterByColorAndSortByPrice,
 } from "../../../redux/features/slices/productsSlice";
+
+// REACT ROUTER
+import { Link } from "react-router-dom";
+
+// REACT ICONS
 import { AiOutlineDown } from "react-icons/ai";
+
+// DATA
 import data from "../../../data/data.json";
 
 export default function SideBar() {
+  const dispatch = useDispatch();
   const [showMenCategories, setShowMenCategories] = useState("closed");
   const [showWomenCategories, setShowWomenCategories] = useState("closed");
-
-  const dispatch = useDispatch();
 
   // getting the category type dynamically to be mapped in the categories section.
   // note: if one new category type is added inside the json data, it will automatically be renderd in the categories section
@@ -57,7 +65,7 @@ export default function SideBar() {
                 className=" text-md my-1 text-gray-700"
                 onClick={() => {
                   dispatch(filterByCategoryMale(category.toLowerCase()));
-                  dispatch(resetFilters());
+                  dispatch(resetFilterByColorAndSortByPrice());
                 }}
                 key={index}
               >
@@ -94,7 +102,7 @@ export default function SideBar() {
                 className=" text-md my-1 text-gray-700"
                 onClick={() => {
                   dispatch(filterByCategoryFemale(category.toLowerCase()));
-                  dispatch(resetFilters());
+                  dispatch(resetFilterByColorAndSortByPrice());
                 }}
                 key={index}
               >

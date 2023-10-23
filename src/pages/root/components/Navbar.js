@@ -1,7 +1,7 @@
-import React from "react";
+// REACT ROUTER
 import { NavLink } from "react-router-dom";
 
-export default function Navbar({ scrollPosition }) {
+export default function Navbar() {
   return (
     <div className=" mx-auto flex w-full max-w-[1600px] flex-row items-center justify-between">
       <div className="mx-10  flex items-center ">

@@ -1,5 +1,7 @@
-import React, { useState } from "react";
-import { useSelector } from "react-redux";
+// REACT
+import { useState } from "react";
+
+// SWIPER
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
   FreeMode,
@@ -15,14 +17,9 @@ import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import "./SwiperStyles.css";
 
-export default function ProductGallery() {
+export default function ProductGallery({ product }) {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
-  const product = useSelector((state) => state.products.singleProduct);
-  const images = product[0].gallery.images.map((image) => {
-    return image;
-  });
-  // console.log(images);
-  // console.log("product", product);
+  const productImages = product[0].gallery.images.map((image) => image);
 
   return (
     <div className=" my-10 ml-10 mr-5 w-[45%]">
@@ -46,7 +43,7 @@ export default function ProductGallery() {
         modules={[FreeMode, Navigation, Thumbs, Pagination, Autoplay]}
         className="mySwiper2"
       >
-        {images.map((image, index) => (
+        {productImages.map((image, index) => (
           <SwiperSlide key={index}>
             <img className="w-full" src={image} alt="shoes images" />
           </SwiperSlide>
@@ -64,7 +61,7 @@ export default function ProductGallery() {
         modules={[FreeMode, Navigation, Thumbs, Scrollbar]}
         className="mySwiper"
       >
-        {images.map((image, index) => (
+        {productImages.map((image, index) => (
           <SwiperSlide key={index}>
             <img src={image} alt="shoes images" />
           </SwiperSlide>

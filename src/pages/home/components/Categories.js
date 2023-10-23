@@ -1,15 +1,20 @@
-import React from "react";
-import menCategory from "../../../assets/images/home-page/men.jpg";
-import womenCategory from "../../../assets/images/home-page/women.jpg";
+// REACT ROUTER
 import { Link } from "react-router-dom";
+
+// REDUX
 import { useDispatch } from "react-redux";
 import { filterByGender } from "../../../redux/features/slices/productsSlice";
+
+// OTHERS
+import menCategory from "../../../assets/images/home-page/men.jpg";
+import womenCategory from "../../../assets/images/home-page/women.jpg";
 
 export default function Categories() {
   const dispatch = useDispatch();
 
   return (
     <div className="my-20 flex w-full flex-row justify-around">
+      {/* men's collection card */}
       <div className="group relative overflow-hidden">
         <div className="absolute top-5 w-full text-center text-2xl font-bold uppercase text-white">
           Men's Collection
@@ -29,6 +34,8 @@ export default function Categories() {
           </Link>
         </div>
       </div>
+
+      {/* women's collection card */}
       <div className="group relative overflow-hidden">
         <div className="absolute top-5 w-full text-center text-2xl font-bold uppercase text-black">
           Women's Collection

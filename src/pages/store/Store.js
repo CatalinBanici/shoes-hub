@@ -1,4 +1,4 @@
-import React from "react";
+// COMPONENTS
 import SideBar from "./components/SideBar";
 import ProductsList from "./components/ProductsList";
 

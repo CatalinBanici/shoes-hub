@@ -1,15 +1,17 @@
 import { createSlice } from "@reduxjs/toolkit";
 import data from "../../../data/data.json";
-import { useEffect } from "react";
 
-const allProducts = data.products.map((product) => product);
+// getting all the products from the local json file
+const products = data.products.map((products) => products);
+const allProducts = [...products];
 
 export const productsSlice = createSlice({
   name: "products",
   initialState: {
-    filteredProducts:
-      JSON.parse(sessionStorage.getItem("filteredProducts")) || allProducts,
-    colorFilteredProducts: [],
+    categoryAndGenderFilteredProducts:
+      JSON.parse(sessionStorage.getItem("categoryAndGenderFilteredProducts")) ||
+      allProducts,
+    colorFilteredAndPriceSortedProducts: [],
     singleProduct:
       JSON.parse(sessionStorage.getItem("singleProduct")) || allProducts,
   },
@@ -18,26 +20,30 @@ export const productsSlice = createSlice({
       const maleProducts = allProducts.filter(
         (product) => product.gender === "male",
       );
-
       const categoryFilterMale = maleProducts.filter(
         (product) => product.category === action.payload,
       );
-      state.filteredProducts = categoryFilterMale;
-      const saveState = JSON.stringify(state.filteredProducts);
-      sessionStorage.setItem("filteredProducts", saveState);
+      state.categoryAndGenderFilteredProducts = categoryFilterMale;
+
+      // saving the state to session storage
+      const saveState = JSON.stringify(state.categoryAndGenderFilteredProducts);
+      sessionStorage.setItem("categoryAndGenderFilteredProducts", saveState);
     },
+
     filterByCategoryFemale(state, action) {
       const femaleProducts = allProducts.filter(
         (product) => product.gender === "female",
       );
-
       const categoryFilterFemale = femaleProducts.filter(
         (product) => product.category === action.payload,
       );
-      state.filteredProducts = categoryFilterFemale;
-      const saveState = JSON.stringify(state.filteredProducts);
-      sessionStorage.setItem("filteredProducts", saveState);
+      state.categoryAndGenderFilteredProducts = categoryFilterFemale;
+
+      // saving the state to session storage
+      const saveState = JSON.stringify(state.categoryAndGenderFilteredProducts);
+      sessionStorage.setItem("categoryAndGenderFilteredProducts", saveState);
     },
+
     filterByGender(state, action) {
       const maleProducts = allProducts.filter(
         (product) => product.gender === "male",
@@ -47,107 +53,85 @@ export const productsSlice = createSlice({
       );
       switch (action.payload) {
         case "male":
-          state.filteredProducts = maleProducts;
+          state.categoryAndGenderFilteredProducts = maleProducts;
           break;
         case "female":
-          state.filteredProducts = femaleProducts;
+          state.categoryAndGenderFilteredProducts = femaleProducts;
           break;
         default:
           return allProducts;
       }
-      const saveState = JSON.stringify(state.filteredProducts);
-      sessionStorage.setItem("filteredProducts", saveState);
+
+      // saving the state to session storage
+      const saveState = JSON.stringify(state.categoryAndGenderFilteredProducts);
+      sessionStorage.setItem("categoryAndGenderFilteredProducts", saveState);
     },
+
     filterById(state, action) {
-      const oneProduct = state.filteredProducts.filter((product) => {
-        return product.id === action.payload;
-      });
+      const oneProduct = state.categoryAndGenderFilteredProducts.filter(
+        (product) => {
+          return product.id === action.payload;
+        },
+      );
       state.singleProduct = oneProduct;
+
+      // saving the state to session storage
       const saveState = JSON.stringify(state.singleProduct);
       sessionStorage.setItem("singleProduct", saveState);
     },
-    filterByColor(state, action) {
-      function compareArrays(arr1, arr2) {
-        return arr1.some((element) => arr2.includes(element));
-      }
-      const colors = action.payload.filterByColor;
+
+    filterByColorAndSortByPrice(state, action) {
+      const filteredProductsCopy = [...state.categoryAndGenderFilteredProducts];
+      const colorFilterType = action.payload.filterByColor;
       const priceSortType = action.payload.sortByPrice;
 
-      const productColors = state.filteredProducts.filter((product) => {
+      const productColors = filteredProductsCopy.filter((product) => {
+        // getting an array with each color from each filtered by category or gender product, storing it in 'colorValues' variable and passing that array as an argument to compareArrays function,
+        // the compareArrays function checks if any color from any array passed as 2nd argument matches the color from the action payload as 1st argument
+        function compareArrays(array1, array2) {
+          return array1.some((element) => array2.includes(element));
+        }
         const stock = product.stock.map((e) => e);
         const colorsStock = stock[1].colors;
         const colorValues = colorsStock.map((e) => e.colorValue);
-        return compareArrays(colors, colorValues);
+        return compareArrays(colorFilterType, colorValues);
       });
-
-      // console.log(priceSortType);
-
-      // // console.log("colors", colors);
-      console.log("productColors", productColors);
-
-      // state.colorFilteredProducts = productColors;
-
-      const filteredProdCopy = [...state.filteredProducts];
 
       if (productColors.length === 0) {
         if (priceSortType === "price+") {
-          const priceAsc = filteredProdCopy.sort((a, b) => {
+          const priceAsc = filteredProductsCopy.sort((a, b) => {
             return a.price.current < b.price.current ? -1 : 1;
           });
-          // console.log("priceAsc", priceAsc);
-          state.colorFilteredProducts = priceAsc;
+          state.colorFilteredAndPriceSortedProducts = priceAsc;
         } else if (priceSortType === "price-") {
-          const priceDesc = filteredProdCopy.sort((a, b) => {
+          const priceDesc = filteredProductsCopy.sort((a, b) => {
             return a.price.current > b.price.current ? -1 : 1;
           });
-          state.colorFilteredProducts = priceDesc;
+          state.colorFilteredAndPriceSortedProducts = priceDesc;
         } else {
-          return filteredProdCopy;
+          return filteredProductsCopy;
         }
       } else {
         if (priceSortType === "price+") {
-          state.colorFilteredProducts = productColors.sort((a, b) => {
-            return a.price.current < b.price.current ? -1 : 1;
-          });
+          state.colorFilteredAndPriceSortedProducts = productColors.sort(
+            (a, b) => {
+              return a.price.current < b.price.current ? -1 : 1;
+            },
+          );
         } else if (priceSortType === "price-") {
-          state.colorFilteredProducts = productColors.sort((a, b) => {
-            return a.price.current > b.price.current ? -1 : 1;
-          });
+          state.colorFilteredAndPriceSortedProducts = productColors.sort(
+            (a, b) => {
+              return a.price.current > b.price.current ? -1 : 1;
+            },
+          );
         } else {
-          state.colorFilteredProducts = productColors;
+          state.colorFilteredAndPriceSortedProducts = productColors;
         }
       }
-
-      console.log("state.colorFilteredProducts", state.colorFilteredProducts);
-
-      // if (priceSortType === "price+") {
-      //   state.colorFilteredProducts = productColors.sort((a, b) => {
-      //     return a.price.current < b.price.current ? -1 : 1;
-      //   });
-      // } else if (priceSortType === "price-") {
-      //   state.colorFilteredProducts = productColors.sort((a, b) => {
-      //     return a.price.current > b.price.current ? -1 : 1;
-      //   });
-      // } else {
-      //   state.colorFilteredProducts = productColors;
-      // }
-
-      // const productColors = state.filteredProducts.map((product) => {
-      //   const stock = product.stock.map((e) => e);
-      //   const colorsStock = stock[1].colors;
-      //   const colorValues = colorsStock.map((e) => e.colorValue);
-      //   return colorValues;
-      // });
-
-      // const colorFilteredProduct = productColors.filter((product) => {
-      //   product.includes(action.payload);
-      // });
-      // state.filteredProducts = colorFilteredProduct;
-      // console.log("colorFilteredProduct", colorFilteredProduct);
     },
-    resetFilters(state) {
-      // to fix a bug when i click reset or change a category , the price sort stays the same
-      state.colorFilteredProducts = [];
+
+    resetFilterByColorAndSortByPrice(state) {
+      state.colorFilteredAndPriceSortedProducts = [];
     },
   },
 });
@@ -157,7 +141,7 @@ export const {
   filterByCategoryFemale,
   filterByGender,
   filterById,
-  filterByColor,
-  resetFilters,
+  filterByColorAndSortByPrice,
+  resetFilterByColorAndSortByPrice,
 } = productsSlice.actions;
 export default productsSlice.reducer;

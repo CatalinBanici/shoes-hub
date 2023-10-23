@@ -1,4 +1,4 @@
-import React from "react";
+// COMPONENTS
 import Carousel from "./components/Carousel";
 import Categories from "./components/Categories";
 

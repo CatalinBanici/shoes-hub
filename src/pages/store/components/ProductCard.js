@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function ProductCard({ product }) {
   // getting each individual color
   const stock = product.stock.map((e) => e);
